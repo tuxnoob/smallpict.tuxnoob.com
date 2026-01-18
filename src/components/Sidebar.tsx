@@ -1,17 +1,6 @@
-"use client";
-
-import React, { useState, useEffect } from "react";
+import React from "react";
 import Link from "next/link";
 import { Folder } from "lucide-react";
-
-// Note: In client component we can't use fs.readdir directly.
-// We must receive the versions as props or fetch via API.
-// BUT, the prompt asked to Use fs.readdirSync to modify Sidebar.tsx.
-// This implies Sidebar might be a SERVER Component or updated via build script?
-// "Update komponen Sidebar.tsx agar bisa auto-detect versi..."
-// "Gunakan fs.readdirSync..."
-// -> This MUST be a Server Component to use `fs`.
-
 import fs from "fs";
 import path from "path";
 
