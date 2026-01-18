@@ -33,6 +33,28 @@ body {
     @apply max-w-[800px] text-[16px] leading-7 text-gray-700;
   }
 
+  .prose table {
+    @apply w-full border-collapse my-6 text-sm border border-gray-200 rounded-lg overflow-hidden block sm:table;
+  }
+
+  .prose th {
+    @apply border-b border-gray-200 bg-gray-50 px-4 py-3 text-left font-semibold text-gray-900;
+    /* Center text for headers 2-4 if possible, but CSS selector is hard. Relies on markdown alignment. */
+  }
+
+  .prose td {
+    @apply border-b border-gray-100 px-4 py-3 text-gray-600;
+  }
+
+  .prose tr:last-child td {
+    @apply border-b-0;
+  }
+
+  .prose tr:nth-child(even) {
+    @apply bg-[#f9fafb];
+    /* Slight zebra stripe */
+  }
+
   .prose h1 {
     @apply text-4xl font-bold tracking-tight text-gray-900 mb-6 pb-4 border-b border-gray-100;
   }
