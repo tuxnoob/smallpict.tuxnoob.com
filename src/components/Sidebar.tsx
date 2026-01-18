@@ -41,25 +41,58 @@ export default async function Sidebar() {
             </div>
 
             <div className="space-y-4">
-                {versions.map((version) => (
-                    <div key={version}>
-                        <h3 className="font-semibold text-gray-500 uppercase text-xs mb-2 flex items-center gap-1">
-                            <Folder size={12} /> {version}
-                        </h3>
-                        <ul className="space-y-1 pl-2 border-l border-gray-200">
-                            {/* Ideally, we should also list files inside the version dynamically */}
-                            {/* For now, linking to Installation as default */}
-                            <li>
-                                <Link
-                                    href={`/docs/${version}/installation`}
-                                    className="text-sm hover:text-blue-600 block py-1"
-                                >
-                                    Installation
-                                </Link>
-                            </li>
-                        </ul>
-                    </div>
-                ))}
+                {versions.map((version) => {
+                    // Logic to read files inside each version
+                    const versionPath = path.join(docsPath, version);
+                    let files: string[] = [];
+                    try {
+                        if (fs.existsSync(versionPath)) {
+                            files = fs.readdirSync(versionPath)
+                                .filter(f => f.endsWith('.mdx'))
+                                .map(f => f.replace('.mdx', ''));
+
+                            // Sort: intro first, then alphabetical
+                            files.sort((a, b) => {
+                                if (a === 'intro') return -1;
+                                if (b === 'intro') return 1;
+                                return a.localeCompare(b);
+                            });
+                        }
+                    } catch (e) {
+                        console.error(`Error reading files in ${version}:`, e);
+                    }
+
+                    return (
+                        <div key={version}>
+                            <h3 className="font-semibold text-gray-500 uppercase text-xs mb-2 flex items-center gap-1">
+                                <Folder size={12} /> {version}
+                            </h3>
+                            <ul className="space-y-1 pl-2 border-l border-gray-200">
+                                {files.map(file => (
+                                    <li key={file}>
+                                        <Link
+                                            href={`/docs/${version}/${file}`}
+                                            className="text-sm hover:text-blue-600 block py-1 capitalize"
+                                        >
+                                            {file === 'intro' ? 'Introduction' : file.replace(/-/g, ' ')}
+                                        </Link>
+                                    </li>
+                                ))}
+                                {/* Fallback if no files found (legacy support) */}
+                                {files.length === 0 && (
+                                    <li>
+                                        <Link
+                                            href={`/docs/${version}/installation`}
+                                            className="text-sm hover:text-blue-600 block py-1"
+                                        >
+                                            Installation
+                                        </Link>
+                                    </li>
+                                )}
+                            </ul>
+                        </div>
+                    );
+                })}
 
                 {versions.length === 0 && (
                     <p className="text-sm text-gray-400">No documentation versions found.</p>
