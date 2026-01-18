@@ -3,6 +3,8 @@ import path from "path";
 import fs from "fs";
 import { notFound } from "next/navigation";
 import { SEO } from "@/components/SEO";
+import remarkGfm from "remark-gfm";
+import Callout from "@/components/Callout";
 
 // Force static generation for GitHub Pages
 export const dynamic = "force-static";
@@ -80,8 +82,16 @@ export default async function Page({ params }: PageProps) {
 
     const { content } = await compileMDX({
         source: source,
-        components: { SEO, Callout: (props: any) => <div {...props} /> }, // Add components here
-        options: { parseFrontmatter: true }, // We rely on component for SEO, but frontmatter support is good
+        components: {
+            SEO,
+            Callout,
+        },
+        options: {
+            parseFrontmatter: true,
+            mdxOptions: {
+                remarkPlugins: [remarkGfm],
+            }
+        },
     });
 
     return (
