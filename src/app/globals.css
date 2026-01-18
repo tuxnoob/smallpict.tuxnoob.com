@@ -5,44 +5,28 @@
 @theme {
   --color-background: var(--background);
   --color-foreground: var(--foreground);
-  /* Add other theme overrides here if needed */
 }
 
-/* 
-  In Tailwind v4, standard utilities like border-gray-200 are available 
-  automatically via the import. 
-  
-  The build error "Cannot apply unknown utility class" often happens 
-  if we use @apply without importing tailwindcss first (which we did),
-  OR if the utility name has changed or is not detected.
-  
-  However, in v4, we can usually just write standard CSS or use the 
-  utilities directly in HTML. 
-  
-  For the GitBook style, I'll use standard CSS classes combined with 
-  @apply, but I'll ensure strict syntax.
-*/
-
+/* Enforce Light Mode Variables for consistency with GitBook style */
 :root {
   --background: #ffffff;
   --foreground: #171717;
+  --sidebar-bg: #f5f7f9;
+  --sidebar-border: #e6ecf1;
+  --text-primary: #3b454e;
+  --text-secondary: #5c6975;
+  --primary-blue: #0277bd;
+  /* GitBook Blue-ish */
 }
 
-@media (prefers-color-scheme: dark) {
-  :root {
-    --background: #0a0a0a;
-    --foreground: #ededed;
-  }
-}
+/* Remove Dark Mode for now to ensure GitBook Aesthetic */
+/* @media (prefers-color-scheme: dark) { ... } */
 
 body {
   background: var(--background);
-  color: var(--foreground);
-  font-family: Arial, Helvetica, sans-serif;
+  color: var(--text-primary);
+  font-family: -apple-system, BlinkMacSystemFont, "Segoe UI", Helvetica, Arial, sans-serif, "Apple Color Emoji", "Segoe UI Emoji", "Segoe UI Symbol";
 }
-
-/* Custom GitBook-like Typography using @apply */
-/* We wrap this in a layer to ensure it interacts correctly with Tailwind */
 
 @layer components {
   .prose {
@@ -66,34 +50,14 @@ body {
   }
 
   .prose code {
-    @apply bg-gray-100 text-pink-600 px-1.5 py-0.5 rounded text-[0.9em] font-medium font-mono;
+    @apply bg-gray-100 text-[#e01e5a] px-1.5 py-0.5 rounded text-[0.9em] font-medium font-mono;
   }
 
   .prose pre {
-    @apply bg-gray-900 text-gray-100 p-4 rounded-lg overflow-x-auto my-6 border border-gray-800 shadow-sm;
+    @apply bg-[#f5f7f9] text-gray-800 p-4 rounded-lg overflow-x-auto my-6 border border-gray-200 shadow-sm;
   }
 
   .prose pre code {
     @apply bg-transparent text-inherit p-0 text-sm;
-  }
-
-  .prose ul {
-    @apply list-disc list-outside ml-5 mb-5 space-y-2;
-  }
-
-  .prose blockquote {
-    @apply border-l-4 border-blue-500 bg-blue-50 pl-4 py-2 italic text-gray-700 rounded-r my-6;
-  }
-
-  .prose table {
-    @apply w-full border-collapse my-6 text-sm;
-  }
-
-  .prose th {
-    @apply border border-gray-200 bg-gray-50 px-4 py-2 text-left font-semibold text-gray-900;
-  }
-
-  .prose td {
-    @apply border border-gray-200 px-4 py-2 text-gray-600;
   }
 }
