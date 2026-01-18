@@ -3,6 +3,7 @@ import Link from "next/link";
 import { Folder } from "lucide-react";
 import fs from "fs";
 import path from "path";
+import Logo from "./Logo";
 
 export default async function Sidebar() {
     const docsPath = path.join(process.cwd(), "docs");
@@ -22,14 +23,14 @@ export default async function Sidebar() {
     versions.sort().reverse();
 
     return (
-        <aside className="w-64 h-screen bg-gray-50 border-r p-4 hidden md:block">
-            <div className="mb-6">
-                <h2 className="text-xl font-bold flex items-center gap-2">
-                    SmallPict Docs
-                </h2>
+        <aside className="w-[280px] h-screen bg-white border-r border-gray-200 flex flex-col shrink-0 sticky top-0">
+            <div className="p-6 border-b border-gray-100">
+                <Link href="/">
+                    <Logo />
+                </Link>
             </div>
 
-            <div className="space-y-4">
+            <div className="flex-1 overflow-y-auto p-4 space-y-6">
                 {versions.map((version) => {
                     // Logic to read files inside each version
                     const versionPath = path.join(docsPath, version);
