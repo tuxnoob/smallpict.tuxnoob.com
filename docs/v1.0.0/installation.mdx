@@ -1,0 +1,162 @@
+
+<SEO
+  title="Installation & Setup | SmallPict Docs v1"
+  description="Complete guide to installing SmallPict, configuring AWS IAM, and setting up the infrastructure."
+  url="https://smallpict.tuxnoob.com/docs/v1/installation"
+  ogTitle="Installation & Setup | SmallPict"
+  ogDescription="Complete guide to installing SmallPict, configuring AWS IAM, and setting up the infrastructure."
+/>
+
+# Configuration & Setup Guide
+
+This document outlines the installation, AWS configuration, and feature tiers for the SmallPict WordPress plugin.
+
+## 1. System Requirements
+
+Before installing, ensure your WordPress server has the following enabled:
+*   **PHP Version**: 7.4 or higher.
+*   **Extensions**:
+    *   `php-zip` (Critical for packaging and deploying Lambda code).
+    *   `php-curl` (Required for communicating with AWS APIs).
+    *   `php-openssl` (Required for encrypted storage of credentials).
+*   **Permissions**: The plugin must have write access to `wp-content/uploads` and `sys_get_temp_dir()`.
+
+---
+
+## 2. Feature Tiers
+
+| Feature | Free | Pro | Enterprise |
+| :--- | :--- | :--- | :--- |
+| **Usage Quota** | 50 MB / Month | **Unlimited** | **Unlimited** |
+| **File Size Limit** | 2 MB per file | **Unlimited** | **Unlimited** |
+| **Domain Limit** | Unlimited | 1 Domain | **Unlimited Domains** |
+| **Animation Support** | ❌ Blocked | ✅ GIF, WebP, AVIF | ✅ GIF, WebP, AVIF |
+| **Smart Scaling** | ❌ Fixed (512MB RAM) | ✅ Dynamic (up to 5GB RAM) | ✅ Dynamic (up to 5GB RAM) |
+| **Support** | Community / Forum | Email Support | Developer Support |
+| **Format Conversion** | Standard (WebP) | Advanced (AVIF/WebP) | Advanced (AVIF/WebP) |
+
+---
+
+## 3. Infrastructure Setup (For Beginners)
+
+If you are new to AWS, follow these steps to prepare your environment.
+
+### A. Create an AWS Account
+If you don't have one, sign up here: [Create AWS Account](https://portal.aws.amazon.com/billing/signup).
+
+### B. Network Setup (VPC & NAT)
+For the Lambda function to communicate securely, you should ideally run it inside a VPC (Virtual Private Cloud).
+
+1.  **Create VPC, Subnets, and Security Groups**:
+    *   Follow the official guide: [AWS VPC User Guide](https://docs.aws.amazon.com/vpc/latest/userguide/what-is-amazon-vpc.html).
+    *   Ensure your Subnets have outbound internet access so the Lambda can communicate with the SmallPict API.
+
+2.  **NAT Gateway vs. NAT Instance (Cost Saving)**:
+    *   Standard AWS NAT Gateways can be expensive (~$30/month).
+    *   **Recommended Alternative**: Use a NAT Instance to save significant costs.
+    *   👉 **Tutorial**: [How to Remove NAT Gateway & Change to NAT Instance](https://www.tuxnoob.com/posts/AWS-ECS-Cost-Optimization-Remove-NAT-Gateway-Change-To-NAT-Instance/)
+
+### C. Need Help? Professional Setup Service 🛠️
+If you find AWS configuration too complex or time-consuming, we offer a **Managed Setup Service**.
+
+*   **Eligibility**: Available for **Pro** and **Enterprise** license holders only.
+*   **Cost**: **$20 USD / Hour**.
+*   **Service**: We will remotely set up your AWS environment (VPC, IAM, Lambda) and configure the plugin for you.
+*   **Contact**: Please email us at `support@smallpict.com` (or your dedicated enterprise contact) to schedule a setup session.
+
+---
+
+## 4. AWS Configuration Guide (Critical)
+
+SmallPict requires a connection to your AWS account. You must set up an **IAM Role** (for the Lambda) and an **IAM User** (for the Plugin).
+
+### Step A: Create IAM Role (For Lambda)
+1.  Log in to AWS IAM Console > **Roles** > **Create role**.
+2.  Trusted entity type: **AWS Service** > **Lambda**.
+3.  Add permissions: **`AWSLambdaBasicExecutionRole`** (If using VPC, also add **`AWSLambdaVPCAccessExecutionRole`**).
+4.  Name the role: `SmallPictLambdaRole`.
+5.  **Copy the Role ARN** and paste it into Plugin Settings.
+
+### Step B: Create IAM Policy (For the Plugin)
+1.  Go to IAM Console > **Policies** > **Create policy**.
+2.  Select **JSON** and paste this strict policy:
+
+```json
+{
+    "Version": "2012-10-17",
+    "Statement": [
+        {
+            "Effect": "Allow",
+            "Action": [
+                "lambda:CreateFunction",
+                "lambda:GetFunction",
+                "lambda:DeleteFunction",
+                "lambda:InvokeFunction",
+                "lambda:UpdateFunctionCode",
+                "lambda:UpdateFunctionConfiguration",
+                "lambda:TagResource",
+                "lambda:ListTags",
+                "lambda:GetLayerVersion",
+                "lambda:DeleteLayerVersion"
+            ],
+            "Resource": [
+                "arn:aws:lambda:*:*:function:sp_Optimizer_*",
+                "arn:aws:lambda:*:*:function:SmallPict*",
+                "arn:aws:lambda:*:*:layer:smallpict-layers:*"
+            ]
+        },
+        {
+            "Effect": "Allow",
+            "Action": "iam:PassRole",
+            "Resource": "arn:aws:iam::*:role/SmallPictLambdaRole"
+        }
+    ]
+}
+```
+3.  Name it: `SmallPictPluginPolicy`.
+
+### Step C: Create IAM User
+1.  Go to **Users** > **Create user** (`wordpress-smallpict-user`).
+2.  Attach policy: **`SmallPictPluginPolicy`**.
+3.  Create **Access Keys** and paste them into Plugin Settings.
+
+---
+
+## 5. Plugin Setup & Verification
+
+1.  **Install & Configure**: Enter credentials in **Settings > SmallPict Optimizer**.
+2.  **Deploy**: Click **Actions > Check & Deploy**.
+3.  **Verify in AWS Console**:
+    *   Go to **AWS Lambda Console**.
+    *   Check that function `sp_Optimizer_Free` (or your chosen name) exists and is **Active**.
+    *   Check that **Tags** (e.g., `Domain`) are present.
+
+---
+
+## 6. Uninstallation & Automatic Cleanup
+
+We designed SmallPict to be "Zero Waste".
+
+### Automatic Cleanup ✅
+When you **Deactivate and Delete** the plugin from WordPress:
+1.  **Lambda Function**: The plugin automatically connects to AWS and deletes the specific Lambda function it created.
+2.  **Layers**: The associated Lambda Layers are removed.
+3.  **Logs**: CloudWatch Log Groups associated with the function are cleaned up.
+**Result**: You will NOT incur further AWS costs for compute or storage related to the function.
+
+### Manual Cleanup Required ⚠️
+The plugin **DOES NOT** touch your network infrastructure. You must manually delete:
+*   **VPC**
+*   **Subnets**
+*   **Security Groups**
+*   **NAT Gateway / NAT Instance**
+
+*Please ensure you remove these manually via the AWS Console if they are no longer needed, as NAT resources can incur hourly charges.*
+
+## Tips ⚡
+
+> [!TIP]
+> **Pro Tip**: Use the **Smart Scaling** feature (available in Pro) to dynamically adjust memory up to 5GB for large images, saving money on smaller images.
+
+> [!NOTE]
+> Always verify your **AWS Region** in settings matches where you created your infrastructure.
