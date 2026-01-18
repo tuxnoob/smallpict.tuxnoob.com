@@ -23,8 +23,8 @@ export default async function Sidebar() {
     versions.sort().reverse();
 
     return (
-        <aside className="w-[280px] h-screen bg-white border-r border-gray-200 flex flex-col shrink-0 sticky top-0">
-            <div className="p-6 border-b border-gray-100">
+        <aside className="w-[280px] h-screen bg-[#f5f7f9] border-r border-[#e6ecf1] flex flex-col shrink-0 sticky top-0">
+            <div className="p-6 border-b border-[#e6ecf1] bg-white">
                 <Link href="/">
                     <Logo />
                 </Link>
@@ -54,15 +54,15 @@ export default async function Sidebar() {
 
                     return (
                         <div key={version}>
-                            <h3 className="font-semibold text-gray-500 uppercase text-xs mb-2 flex items-center gap-1">
+                            <h3 className="font-semibold text-[#9daab6] uppercase text-xs mb-3 flex items-center gap-1 px-2 tracking-wider">
                                 <Folder size={12} /> {version}
                             </h3>
-                            <ul className="space-y-1 pl-2 border-l border-gray-200">
+                            <ul className="space-y-0.5 border-l border-[#e6ecf1] ml-2 pl-3">
                                 {files.map(file => (
                                     <li key={file}>
                                         <Link
                                             href={`/docs/${version}/${file}`}
-                                            className="text-sm hover:text-blue-600 block py-1 capitalize"
+                                            className="text-[14px] text-[#5c6975] hover:text-[#3b454e] hover:border-l-4 hover:border-blue-500 hover:bg-white hover:shadow-sm block py-1.5 px-2 -ml-3 transition-all rounded-r capitalize"
                                         >
                                             {file === 'intro' ? 'Introduction' : file.replace(/-/g, ' ')}
                                         </Link>
@@ -73,7 +73,7 @@ export default async function Sidebar() {
                                     <li>
                                         <Link
                                             href={`/docs/${version}/installation`}
-                                            className="text-sm hover:text-blue-600 block py-1"
+                                            className="text-[14px] text-[#5c6975] hover:text-[#3b454e] block py-1.5"
                                         >
                                             Installation
                                         </Link>
