@@ -1,96 +1,99 @@
-@tailwind base;
-@tailwind components;
-@tailwind utilities;
+@import "tailwindcss";
 
-@layer base {
+@source "../src";
+
+@theme {
+  --color-background: var(--background);
+  --color-foreground: var(--foreground);
+  /* Add other theme overrides here if needed */
+}
+
+/* 
+  In Tailwind v4, standard utilities like border-gray-200 are available 
+  automatically via the import. 
+  
+  The build error "Cannot apply unknown utility class" often happens 
+  if we use @apply without importing tailwindcss first (which we did),
+  OR if the utility name has changed or is not detected.
+  
+  However, in v4, we can usually just write standard CSS or use the 
+  utilities directly in HTML. 
+  
+  For the GitBook style, I'll use standard CSS classes combined with 
+  @apply, but I'll ensure strict syntax.
+*/
+
+:root {
+  --background: #ffffff;
+  --foreground: #171717;
+}
+
+@media (prefers-color-scheme: dark) {
   :root {
-    --background: 0 0% 100%;
-    --foreground: 222.2 84% 4.9%;
-    --card: 0 0% 100%;
-    --card-foreground: 222.2 84% 4.9%;
-    --popover: 0 0% 100%;
-    --popover-foreground: 222.2 84% 4.9%;
-    --primary: 221.2 83.2% 53.3%;
-    --primary-foreground: 210 40% 98%;
-    --secondary: 210 40% 96.1%;
-    --secondary-foreground: 222.2 47.4% 11.2%;
-    --muted: 210 40% 96.1%;
-    --muted-foreground: 215.4 16.3% 46.9%;
-    --accent: 210 40% 96.1%;
-    --accent-foreground: 222.2 47.4% 11.2%;
-    --destructive: 0 84.2% 60.2%;
-    --destructive-foreground: 210 40% 98%;
-    --border: 214.3 31.8% 91.4%;
-    --input: 214.3 31.8% 91.4%;
-    --ring: 221.2 83.2% 53.3%;
-    --radius: 0.5rem;
-  }
-
-  .dark {
-    --background: 222.2 84% 4.9%;
-    --foreground: 210 40% 98%;
+    --background: #0a0a0a;
+    --foreground: #ededed;
   }
 }
 
-@layer base {
-  * {
-    @apply border-gray-200;
+body {
+  background: var(--background);
+  color: var(--foreground);
+  font-family: Arial, Helvetica, sans-serif;
+}
+
+/* Custom GitBook-like Typography using @apply */
+/* We wrap this in a layer to ensure it interacts correctly with Tailwind */
+
+@layer components {
+  .prose {
+    @apply max-w-[800px] text-[16px] leading-7 text-gray-700;
   }
 
-  body {
-    @apply bg-white text-gray-900 font-sans antialiased;
+  .prose h1 {
+    @apply text-4xl font-bold tracking-tight text-gray-900 mb-6 pb-4 border-b border-gray-100;
   }
-}
 
-/* Custom Typography for Content (GitBook Style) */
-.prose {
-  @apply max-w-[800px] text-[16px] leading-7 text-gray-700;
-}
+  .prose h2 {
+    @apply text-2xl font-bold tracking-tight text-gray-900 mt-10 mb-4;
+  }
 
-.prose h1 {
-  @apply text-4xl font-bold tracking-tight text-gray-900 mb-6 pb-4 border-b border-gray-100;
-}
+  .prose p {
+    @apply mt-0 mb-5;
+  }
 
-.prose h2 {
-  @apply text-2xl font-bold tracking-tight text-gray-900 mt-10 mb-4;
-}
+  .prose a {
+    @apply text-blue-600 no-underline hover:text-blue-800 font-medium border-b border-blue-600/30 hover:border-blue-800 transition-colors;
+  }
 
-.prose p {
-  @apply mt-0 mb-5;
-}
+  .prose code {
+    @apply bg-gray-100 text-pink-600 px-1.5 py-0.5 rounded text-[0.9em] font-medium font-mono;
+  }
 
-.prose a {
-  @apply text-blue-600 no-underline hover:text-blue-800 font-medium border-b border-blue-600/30 hover:border-blue-800 transition-colors;
-}
+  .prose pre {
+    @apply bg-gray-900 text-gray-100 p-4 rounded-lg overflow-x-auto my-6 border border-gray-800 shadow-sm;
+  }
 
-.prose code {
-  @apply bg-gray-100 text-pink-600 px-1.5 py-0.5 rounded text-[0.9em] font-medium font-mono;
-}
+  .prose pre code {
+    @apply bg-transparent text-inherit p-0 text-sm;
+  }
 
-.prose pre {
-  @apply bg-gray-900 text-gray-100 p-4 rounded-lg overflow-x-auto my-6 border border-gray-800 shadow-sm;
-}
+  .prose ul {
+    @apply list-disc list-outside ml-5 mb-5 space-y-2;
+  }
 
-.prose pre code {
-  @apply bg-transparent text-inherit p-0 text-sm;
-}
+  .prose blockquote {
+    @apply border-l-4 border-blue-500 bg-blue-50 pl-4 py-2 italic text-gray-700 rounded-r my-6;
+  }
 
-.prose ul {
-  @apply list-disc list-outside ml-5 mb-5 space-y-2;
-}
+  .prose table {
+    @apply w-full border-collapse my-6 text-sm;
+  }
 
-.prose blockquote {
-  @apply border-l-4 border-blue-500 bg-blue-50 pl-4 py-2 italic text-gray-700 rounded-r my-6;
-}
+  .prose th {
+    @apply border border-gray-200 bg-gray-50 px-4 py-2 text-left font-semibold text-gray-900;
+  }
 
-.prose table {
-  @apply w-full border-collapse my-6 text-sm;
-}
-
-.prose th {
-  @apply border border-gray-200 bg-gray-50 px-4 py-2 text-left font-semibold text-gray-900;
-}
-
-.prose td {
-  @apply border border-gray-200 px-4 py-2 text-gray-600;
+  .prose td {
+    @apply border border-gray-200 px-4 py-2 text-gray-600;
+  }
 }
