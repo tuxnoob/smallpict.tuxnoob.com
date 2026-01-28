@@ -28,14 +28,6 @@ export default async function Sidebar() {
                 <Link href="/">
                     <Logo />
                 </Link>
-                <div className="mt-4 px-2">
-                    <Link
-                        href="/pricing"
-                        className="flex items-center gap-2 text-sm font-medium text-gray-600 hover:text-blue-600 hover:bg-white px-3 py-2 rounded-md transition-all border border-transparent hover:border-gray-100 hover:shadow-sm"
-                    >
-                        <span className="text-lg">💰</span> Pricing
-                    </Link>
-                </div>
             </div>
 
             <div className="flex-1 overflow-y-auto p-4 space-y-6">

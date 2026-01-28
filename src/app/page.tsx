@@ -1,6 +1,7 @@
 
 import Image from "next/image";
 import Link from "next/link";
+import PricingSection from "@/components/PricingSection";
 
 export default function Home() {
   return (
@@ -57,6 +58,8 @@ export default function Home() {
             <p className="text-gray-600">AI-powered resizing, smart compression (WebP/AVIF), and perfect visual fidelity for your media.</p>
           </div>
         </div>
+
+        <PricingSection />
       </main>
 
       <footer className="row-start-3 flex gap-6 flex-wrap items-center justify-center text-gray-400 text-sm">
