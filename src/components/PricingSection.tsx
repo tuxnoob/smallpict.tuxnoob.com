@@ -185,7 +185,14 @@ export default function PricingSection() {
                                 <p className="mt-4 text-sm leading-6 text-gray-600">{plan.description}</p>
                                 <p className="mt-6 flex items-baseline gap-x-1">
                                     <span className="text-4xl font-bold tracking-tight text-gray-900">
-                                        {billingCycle === 'monthly' ? plan.monthlyPrice : plan.annualPrice}
+                                        {/* Dynamic Price Calculation for Business */}
+                                        {plan.id === 'business' ? (
+                                            billingCycle === 'monthly'
+                                                ? (businessLicenses === 1 ? '$29' : '$39')
+                                                : (businessLicenses === 1 ? '$290' : '$450')
+                                        ) : (
+                                            billingCycle === 'monthly' ? plan.monthlyPrice : plan.annualPrice
+                                        )}
                                     </span>
                                     {plan.monthlyPrice !== 'Custom' && plan.monthlyPrice !== '$0' && (
                                         <span className="text-sm font-semibold leading-6 text-gray-600">
@@ -227,10 +234,10 @@ export default function PricingSection() {
                                 }}
                                 aria-describedby={plan.id}
                                 className={`mt-8 block rounded-md py-3 px-3 text-center text-sm font-semibold leading-6 focus-visible:outline focus-visible:outline-2 focus-visible:outline-offset-2 ${plan.id === 'enterprise'
-                                        ? 'bg-gray-100 text-gray-400 cursor-not-allowed'
-                                        : plan.highlight
-                                            ? 'bg-blue-600 text-white shadow-sm hover:bg-blue-500 focus-visible:outline-blue-600 transition-all'
-                                            : 'bg-blue-50 text-blue-600 hover:bg-blue-100 ring-1 ring-inset ring-blue-200 transition-all'
+                                    ? 'bg-gray-100 text-gray-400 cursor-not-allowed'
+                                    : plan.highlight
+                                        ? 'bg-blue-600 text-white shadow-sm hover:bg-blue-500 focus-visible:outline-blue-600 transition-all'
+                                        : 'bg-blue-50 text-blue-600 hover:bg-blue-100 ring-1 ring-inset ring-blue-200 transition-all'
                                     }`}
                             >
                                 {plan.buttonText || 'Buy ' + plan.title}
