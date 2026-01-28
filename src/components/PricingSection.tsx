@@ -31,7 +31,7 @@ const PLANS: PlanConfig[] = [
         monthlyPrice: '$0',
         annualPrice: '$0',
         description: 'For hobbyists and testing.',
-        features: ['20 MB Monthly Quota', '2 MB Max File', 'WebP Conversion', 'Community Support'],
+        features: ['20 MB Monthly Quota', '2 MB Max File', 'WebP Conversion', 'No Scaling (Queue)', 'Community Support'],
         quota: '20 MB',
         buttonText: 'Get Free',
         licenseConfig: 'single'
@@ -43,7 +43,7 @@ const PLANS: PlanConfig[] = [
         monthlyPrice: '$5',
         annualPrice: '$50',
         description: 'For personal blogs.',
-        features: ['200 MB Monthly Quota', '10 MB Max File', 'WebP Conversion', 'Email Support'],
+        features: ['200 MB Monthly Quota', '10 MB Max File', 'WebP Conversion', 'No Scaling (Instant)', 'Email Support'],
         quota: '200 MB',
         licenseConfig: 'single'
     },
@@ -54,7 +54,7 @@ const PLANS: PlanConfig[] = [
         monthlyPrice: '$15',
         annualPrice: '$150',
         description: 'For professionals.',
-        features: ['600 MB Monthly Quota', '32 MB Max File', 'AVIF + WebP', 'Priority Support', 'Smart Scaling'],
+        features: ['600 MB Monthly Quota', '32 MB Max File', 'AVIF + WebP', 'Standard Scaling', 'Priority Support'],
         quota: '600 MB',
         highlight: true,
         licenseConfig: 'single'
@@ -66,7 +66,7 @@ const PLANS: PlanConfig[] = [
         monthlyPrice: '$39',
         annualPrice: '$450',
         description: 'For growing sites.',
-        features: ['1.5 GB Monthly Quota', '64 MB Max File', 'AVIF + WebP', 'Premium Support', 'Aggressive Scaling'],
+        features: ['1.5 GB Monthly Quota', '64 MB Max File', 'AVIF + WebP', 'Aggressive Scaling', 'Premium Support'],
         quota: '1.5 GB',
         licenseConfig: 'select'
     },
@@ -77,7 +77,7 @@ const PLANS: PlanConfig[] = [
         monthlyPrice: '$99',
         annualPrice: '$1100',
         description: 'For agencies.',
-        features: ['4 GB Monthly Quota', '128 MB Max File', 'AVIF + WebP', 'Dedicated Support', '10 Site Licenses'],
+        features: ['4 GB Monthly Quota', '128 MB Max File', 'AVIF + WebP', 'Aggressive Scaling', 'Dedicated Support', '10 Site Licenses'],
         quota: '4 GB',
         licenseConfig: 'fixed_10'
     },
@@ -88,7 +88,7 @@ const PLANS: PlanConfig[] = [
         monthlyPrice: 'Custom',
         annualPrice: 'Custom',
         description: 'For large scale.',
-        features: ['Custom Quota', 'Unlimited File Size', 'Custom SLA', 'Dedicated Infra'],
+        features: ['Custom Quota', 'Unlimited File Size', 'Aggressive Scaling', 'Dedicated Infra', 'Custom SLA'],
         quota: 'Custom',
         buttonText: 'Coming Soon',
         licenseConfig: 'custom'
