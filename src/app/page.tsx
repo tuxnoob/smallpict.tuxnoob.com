@@ -49,7 +49,7 @@ export default function Home() {
           <div className="p-6 rounded-2xl bg-gray-50 border border-gray-100">
             <div className="text-3xl mb-4">✨</div>
             <h3 className="font-bold text-xl mb-2 text-gray-900">Simply Magical</h3>
-            <p className="text-gray-600">No complex AWS configuration, no API keys to manage. Just install the plugin and let us handle the rest.</p>
+            <p className="text-gray-600">No complex server configuration, no API keys to manage. Just install the plugin and let us handle the rest.</p>
           </div>
           <div className="p-6 rounded-2xl bg-gray-50 border border-gray-100">
             <div className="text-3xl mb-4">💎</div>
