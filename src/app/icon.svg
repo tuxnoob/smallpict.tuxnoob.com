@@ -1,5 +1,12 @@
 <svg width="2048" height="2048" viewBox="0 0 2048 2048" fill="none" xmlns="http://www.w3.org/2000/svg" xmlns:xlink="http://www.w3.org/1999/xlink">
-<rect width="2048" height="2048" fill="url(#pattern0_1205_36)"/>
+  <style>
+    @media (prefers-color-scheme: dark) {
+      .icon-content {
+        filter: invert(1) brightness(1000%);
+      }
+    }
+  </style>
+<rect width="2048" height="2048" fill="url(#pattern0_1205_36)" class="icon-content"/>
 <defs>
 <pattern id="pattern0_1205_36" patternContentUnits="objectBoundingBox" width="1" height="1">
 <use xlink:href="#image0_1205_36" transform="scale(0.000976562)"/>
