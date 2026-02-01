@@ -4,8 +4,8 @@
         "getStarted": "시작하기"
     },
     "Hero": {
-        "headline": "<blue>무거운 이미지</blue> 때문에 웹사이트가 느린가요?",
-        "subheadline": "SmallPict는 복잡한 설정 없이 웹사이트 속도를 높이기 위해 이미지 크기를 자동으로 줄입니다.",
+        "headline": "<blue>무거운 이미지</blue> 때문에 워드프레스 웹사이트가 느린가요?",
+        "subheadline": "SmallPict는 복잡한 설정 없이 워드프레스 웹사이트 속도를 높이기 위해 이미지 크기를 자동으로 줄입니다.",
         "ctaPrimary": "무료 체험",
         "ctaSecondary": "데모 보기",
         "before": "전",
@@ -13,14 +13,14 @@
         "compressResult": "결과"
     },
     "Benefits": {
-        "speed": "더 빠른 웹사이트",
+        "speed": "더 빠른 워드프레스 웹사이트",
         "quality": "선명한 이미지",
         "simple": "복잡한 설정 없음",
         "bandwidth": "대역폭 절약"
     },
     "Features": {
         "title": "핵심 기능",
-        "subtitle": "초고속 웹사이트를 위해 필요한 모든 것",
+        "subtitle": "초고속 워드프레스 웹사이트를 위해 필요한 모든 것",
         "f1_title": "마법처럼 간단함",
         "f1_desc": "설치하고 활성화하면 끝입니다. 복잡한 서버 구성이나 난해한 API 키가 필요 없습니다.",
         "f2_title": "프리미엄 품질",
@@ -73,23 +73,23 @@
     },
     "HowItWorks": {
         "title": "작동 방식",
-        "subtitle": "더 가벼운 웹사이트를 위한 3단계.",
+        "subtitle": "더 가벼운 워드프레스 웹사이트를 위한 3단계.",
         "step1_title": "플러그인 설치",
         "step1_desc": "WordPress 대시보드에 SmallPict 플러그인을 다운로드하여 설치합니다.",
         "step2_title": "자동 최적화",
         "step2_desc": "평소처럼 이미지를 업로드하세요. SmallPict가 백그라운드에서 압축 작업을 수행합니다.",
-        "step3_title": "더 빠른 웹사이트",
+        "step3_title": "더 빠른 워드프레스 웹사이트",
         "step3_desc": "즉각적인 로딩 속도와 더 나은 SEO 점수를 누리세요."
     },
     "Testimonials": {
         "title": "추천사",
         "heading": "콘텐츠 제작자들이 신뢰함",
-        "t1": "설정 없이 5분 만에 웹사이트가 2배 빨라졌습니다. 정말 우리가 찾던 솔루션입니다.",
+        "t1": "설정 없이 5분 만에 워드프레스 웹사이트가 2배 빨라졌습니다. 정말 우리가 찾던 솔루션입니다.",
         "t2": "SmallPict 덕분에 고화질 사진이 많아도 여행 블로그가 매우 빠르게 로드됩니다. Google PageSpeed가 급격히 상승했습니다!",
         "t3": "우리 에이전시를 위한 최고의 솔루션입니다. 수백 개의 클라이언트 사이트를 관리하는 것이 서버 걱정 없이 훨씬 효율적입니다."
     },
     "Footer": {
         "rights": "SmallPict (TuxNoob). All rights reserved.",
-        "brandMessage": "SmallPict — 품질 저하 없이 빠른 속도를 유지하려는 웹사이트를 위한 가벼운 솔루션."
+        "brandMessage": "SmallPict — 품질 저하 없이 빠른 속도를 유지하려는 워드프레스 웹사이트를 위한 가벼운 솔루션."
     }
 }

@@ -4,8 +4,8 @@
         "getStarted": "Loslegen"
     },
     "Hero": {
-        "headline": "Langsame Website durch <blue>große Bilder?</blue>",
-        "subheadline": "SmallPict reduziert automatisch die Bildgröße, damit Ihre Website schneller wird — ohne komplizierte Einstellungen.",
+        "headline": "Langsame WordPress-Website durch <blue>große Bilder?</blue>",
+        "subheadline": "SmallPict reduziert automatisch die Bildgröße, damit Ihre WordPress-Website schneller wird — ohne komplizierte Einstellungen.",
         "ctaPrimary": "Kostenlos Testen",
         "ctaSecondary": "Demo Ansehen",
         "before": "Vorher",
@@ -13,14 +13,14 @@
         "compressResult": "Ergebnis"
     },
     "Benefits": {
-        "speed": "Schnellere Website",
+        "speed": "Schnellere WordPress-Website",
         "quality": "Scharfe Bilder",
         "simple": "Keine komplexen Einstellungen",
         "bandwidth": "Bandbreite sparen"
     },
     "Features": {
         "title": "Hauptfunktionen",
-        "subtitle": "Alles, was Sie für eine superschnelle Website brauchen",
+        "subtitle": "Alles, was Sie für eine superschnelle WordPress-Website brauchen",
         "f1_title": "Einfach Magisch",
         "f1_desc": "Installieren, aktivieren und fertig. Keine verwirrende Serverkonfiguration oder komplizierte API-Schlüssel.",
         "f2_title": "Premium Qualität",
@@ -73,23 +73,23 @@
     },
     "HowItWorks": {
         "title": "Wie es funktionier",
-        "subtitle": "Drei einfache Schritte zu einer leichteren Website.",
+        "subtitle": "Drei einfache Schritte zu einer leichteren WordPress-Website.",
         "step1_title": "Plugin Installieren",
         "step1_desc": "Laden Sie das SmallPict-Plugin in Ihrem WordPress-Dashboard herunter und installieren Sie es.",
         "step2_title": "Automatische Optimierung",
         "step2_desc": "Bilder wie gewohnt hochladen. SmallPict arbeitet im Hintergrund und komprimiert sie.",
-        "step3_title": "Schnellere Website",
+        "step3_title": "Schnellere WordPress-Website",
         "step3_desc": "Genießen Sie sofortige Ladezeiten und bessere SEO-Scores."
     },
     "Testimonials": {
         "title": "Kundenstimmen",
         "heading": "Vertraut von Content Creatorn",
-        "t1": "Unsere Website ist in 5 Minuten 2x schneller geworden — ohne Einstellungen. Genau die Lösung, die wir gesucht haben.",
+        "t1": "Unsere WordPress-Website ist in 5 Minuten 2x schneller geworden — ohne Einstellungen. Genau die Lösung, die wir gesucht haben.",
         "t2": "SmallPict hilft meinem Reiseblog, superschnell zu laden, trotz vieler HD-Fotos. Google PageSpeed ist drastisch gestiegen!",
         "t3": "Die beste Lösung für unsere Agentur. Hunderte von Kundenseiten zu verwalten ist viel effizienter ohne Serversorgen."
     },
     "Footer": {
         "rights": "SmallPict (TuxNoob). Alle Rechte vorbehalten.",
-        "brandMessage": "SmallPict — leichte Lösung für Websites, die schnell bleiben wollen, ohne Kompromisse bei der Qualität."
+        "brandMessage": "SmallPict — leichte Lösung für WordPress-Websites, die schnell bleiben wollen, ohne Kompromisse bei der Qualität."
     }
 }

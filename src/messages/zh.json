@@ -4,8 +4,8 @@
         "getStarted": "开始使用"
     },
     "Hero": {
-        "headline": "网站速度慢是因为 <blue>图片过大？</blue>",
-        "subheadline": "SmallPict 自动压缩图片大小，让您的网站速度更快 —— 无需任何复杂设置。",
+        "headline": "WordPress 网站速度慢是因为 <blue>图片过大？</blue>",
+        "subheadline": "SmallPict 自动压缩图片大小，让您的WordPress 网站速度更快 —— 无需任何复杂设置。",
         "ctaPrimary": "立即免费试用",
         "ctaSecondary": "观看演示",
         "before": "压缩前",
@@ -13,14 +13,14 @@
         "compressResult": "压缩结果"
     },
     "Benefits": {
-        "speed": "网站速度更快",
+        "speed": "WordPress 网站速度更快",
         "quality": "图片清晰依旧",
         "simple": "无需复杂设置",
         "bandwidth": "节省带宽和存储"
     },
     "Features": {
         "title": "核心功能",
-        "subtitle": "打造超快网站所需的一切",
+        "subtitle": "打造超快WordPress 网站所需的一切",
         "f1_title": "简单神奇",
         "f1_desc": "安装、激活，搞定。没有令人困惑的服务器配置或复杂的 API 密钥。",
         "f2_title": "优质画质",
@@ -73,23 +73,23 @@
     },
     "HowItWorks": {
         "title": "工作原理",
-        "subtitle": "三个简单步骤，让网站更轻盈。",
+        "subtitle": "三个简单步骤，让WordPress 网站更轻盈。",
         "step1_title": "安装插件",
         "step1_desc": "在您的 WordPress 仪表板上下载并安装 SmallPict 插件。",
         "step2_title": "自动优化",
         "step2_desc": "像往常一样上传图片。SmallPict 在后台压缩图片。",
-        "step3_title": "网站更快",
+        "step3_title": "WordPress 网站更快",
         "step3_desc": "享受即时加载速度和更好的 SEO 分数。"
     },
     "Testimonials": {
         "title": "客户评价",
         "heading": "深受内容创作者信赖",
-        "t1": "无需任何设置，我们的网站在 5 分钟内快了 2 倍。这就是我们要找的解决方案。",
+        "t1": "无需任何设置，我们的WordPress 网站在 5 分钟内快了 2 倍。这就是我们要找的解决方案。",
         "t2": "SmallPict 帮助我的旅游博客加载超快，尽管有很多高清照片。Google PageSpeed 分数大幅提升！",
         "t3": "对我们代理商来说是最好的解决方案。管理数百个客户网站变得更加高效，无需担心服务器问题。"
     },
     "Footer": {
         "rights": "SmallPict (TuxNoob). 保留所有权利。",
-        "brandMessage": "SmallPict — 既要速度又要质量的网站的轻量级解决方案。"
+        "brandMessage": "SmallPict — 既要速度又要质量的WordPress 网站的轻量级解决方案。"
     }
 }

@@ -4,8 +4,8 @@
         "getStarted": "Bắt đầu"
     },
     "Hero": {
-        "headline": "Website chậm do <blue>ảnh nặng?</blue>",
-        "subheadline": "SmallPict tự động giảm kích thước ảnh để website của bạn nhanh hơn — không cần cài đặt phức tạp.",
+        "headline": "Website WordPress chậm do <blue>ảnh nặng?</blue>",
+        "subheadline": "SmallPict tự động giảm kích thước ảnh để website WordPress của bạn nhanh hơn — không cần cài đặt phức tạp.",
         "ctaPrimary": "Dùng thử miễn phí",
         "ctaSecondary": "Xem Demo",
         "before": "Trước",
@@ -13,14 +13,14 @@
         "compressResult": "Kết quả"
     },
     "Benefits": {
-        "speed": "Website nhanh hơn",
+        "speed": "Website WordPress nhanh hơn",
         "quality": "Ảnh sắc nét",
         "simple": "Không cài đặt phức tạp",
         "bandwidth": "Tiết kiệm băng thông"
     },
     "Features": {
         "title": "Tính năng chính",
-        "subtitle": "Mọi thứ bạn cần cho một website siêu tốc",
+        "subtitle": "Mọi thứ bạn cần cho một website WordPress siêu tốc",
         "f1_title": "Đơn giản là Kỳ diệu",
         "f1_desc": "Cài đặt, kích hoạt và xong. Không cấu hình máy chủ khó hiểu hay khóa API phức tạp.",
         "f2_title": "Chất lượng cao cấp",
@@ -73,23 +73,23 @@
     },
     "HowItWorks": {
         "title": "Cách hoạt động",
-        "subtitle": "Ba bước đơn giản để website nhẹ hơn.",
+        "subtitle": "Ba bước đơn giản để website WordPress nhẹ hơn.",
         "step1_title": "Cài đặt Plugin",
         "step1_desc": "Tải và cài đặt plugin SmallPict trên bảng điều khiển WordPress của bạn.",
         "step2_title": "Tối ưu tự động",
         "step2_desc": "Tải ảnh lên như bình thường. SmallPict hoạt động ngầm để nén chúng.",
-        "step3_title": "Website nhanh hơn",
+        "step3_title": "Website WordPress nhanh hơn",
         "step3_desc": "Tận hưởng tốc độ tải tức thì và điểm SEO tốt hơn."
     },
     "Testimonials": {
         "title": "Đánh giá",
         "heading": "Được tin dùng bởi người sáng tạo nội dung",
-        "t1": "Website của chúng tôi nhanh hơn gấp 2 lần trong 5 phút — không cần cài đặt. Thực sự là giải pháp chúng tôi đang tìm kiếm.",
+        "t1": "Website WordPress của chúng tôi nhanh hơn gấp 2 lần trong 5 phút — không cần cài đặt. Thực sự là giải pháp chúng tôi đang tìm kiếm.",
         "t2": "SmallPict giúp blog du lịch của tôi tải siêu nhanh dù có nhiều ảnh HD. Google PageSpeed tăng chóng mặt!",
         "t3": "Giải pháp tốt nhất cho agency của chúng tôi. Quản lý hàng trăm web khách hàng hiệu quả hơn nhiều mà không lo về máy chủ."
     },
     "Footer": {
         "rights": "SmallPict (TuxNoob). Bảo lưu mọi quyền.",
-        "brandMessage": "SmallPict — giải pháp nhẹ cho website muốn duy trì tốc độ mà không ảnh hưởng chất lượng."
+        "brandMessage": "SmallPict — giải pháp nhẹ cho website WordPress muốn duy trì tốc độ mà không ảnh hưởng chất lượng."
     }
 }

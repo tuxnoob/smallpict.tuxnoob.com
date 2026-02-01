@@ -4,8 +4,8 @@
         "getStarted": "Inizia"
     },
     "Hero": {
-        "headline": "Sito lento per <blue>immagini pesanti?</blue>",
-        "subheadline": "SmallPict riduce automaticamente le dimensioni delle immagini per rendere il tuo sito più veloce — senza impostazioni complicate.",
+        "headline": "Sito WordPress lento per <blue>immagini pesanti?</blue>",
+        "subheadline": "SmallPict riduce automaticamente le dimensioni delle immagini per rendere il tuo sito WordPress più veloce — senza impostazioni complicate.",
         "ctaPrimary": "Prova Gratis",
         "ctaSecondary": "Vedi Demo",
         "before": "Prima",
@@ -13,14 +13,14 @@
         "compressResult": "Risultato"
     },
     "Benefits": {
-        "speed": "Sito più veloce",
+        "speed": "Sito WordPress più veloce",
         "quality": "Immagini nitide",
         "simple": "Nessuna impostazione complessa",
         "bandwidth": "Risparmia banda"
     },
     "Features": {
         "title": "Caratteristiche Principali",
-        "subtitle": "Tutto ciò che serve per un sito super veloce",
+        "subtitle": "Tutto ciò che serve per un sito WordPress super veloce",
         "f1_title": "Semplicemente Magico",
         "f1_desc": "Installa, attiva e fatto. Nessuna configurazione server confusa o chiavi API complicate.",
         "f2_title": "Qualità Premium",
@@ -73,18 +73,18 @@
     },
     "HowItWorks": {
         "title": "Come Funziona",
-        "subtitle": "Tre semplici passaggi per un sito più leggero.",
+        "subtitle": "Tre semplici passaggi per un sito WordPress più leggero.",
         "step1_title": "Installa Plugin",
         "step1_desc": "Scarica e installa il plugin SmallPict nella tua dashboard WordPress.",
         "step2_title": "Ottimizzazione Automatica",
         "step2_desc": "Carica le immagini come al solito. SmallPict lavora in background per comprimerle.",
-        "step3_title": "Sito Più Veloce",
+        "step3_title": "Sito WordPress Più Veloce",
         "step3_desc": "Goditi velocità di caricamento istantanee e migliori punteggi SEO."
     },
     "Testimonials": {
         "title": "Testimonianze",
         "heading": "Scelto dai creatori di contenuti",
-        "t1": "Il nostro sito è 2 volte più veloce in 5 minuti — senza impostazioni. Davvero la soluzione che cercavamo.",
+        "t1": "Il nostro sito WordPress è 2 volte più veloce in 5 minuti — senza impostazioni. Davvero la soluzione che cercavamo.",
         "t2": "SmallPict aiuta il mio blog di viaggi a caricare super velocemente nonostante molte foto HD. Google PageSpeed è salito drasticamente!",
         "t3": "La migliore soluzione per la nostra agenzia. Gestire centinaia di siti clienti è molto più efficiente senza preoccuparsi dei server."
     },

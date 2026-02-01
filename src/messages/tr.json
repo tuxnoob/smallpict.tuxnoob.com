@@ -4,7 +4,7 @@
         "getStarted": "Başla"
     },
     "Hero": {
-        "headline": "<blue>Ağır görseller</blue> yüzünden web sitesi yavaş mı?",
+        "headline": "<blue>Ağır görseller</blue> yüzünden WordPress web sitesi yavaş mı?",
         "subheadline": "SmallPict, karmaşık ayarlar olmadan web sitenizin daha hızlı olması için görsel boyutlarını otomatik olarak küçültür.",
         "ctaPrimary": "Ücretsiz Dene",
         "ctaSecondary": "Demoyu Gör",
@@ -20,7 +20,7 @@
     },
     "Features": {
         "title": "Temel Özellikler",
-        "subtitle": "Süper hızlı bir web sitesi için ihtiyacınız olan her şey",
+        "subtitle": "Süper hızlı bir WordPress web sitesi için ihtiyacınız olan her şey",
         "f1_title": "Sadece Büyü",
         "f1_desc": "Yükleyin, etkinleştirin ve bitti. Kafa karıştırıcı sunucu yapılandırması veya karmaşık API anahtarları yok.",
         "f2_title": "Premium Kalite",
@@ -73,7 +73,7 @@
     },
     "HowItWorks": {
         "title": "Nasıl Çalışır",
-        "subtitle": "Daha hafif bir web sitesi için üç basit adım.",
+        "subtitle": "Daha hafif bir WordPress web sitesi için üç basit adım.",
         "step1_title": "Eklentiyi Yükle",
         "step1_desc": "SmallPict eklentisini WordPress panelinize indirin ve yükleyin.",
         "step2_title": "Otomatik Optimizasyon",
@@ -84,7 +84,7 @@
     "Testimonials": {
         "title": "Görüşler",
         "heading": "İçerik üreticileri tarafından güveniliyor",
-        "t1": "Sitemiz 5 dakikada 2 kat daha hızlı hale geldi — ayar yapmadan. Gerçekten aradığımız çözüm.",
+        "t1": "WordPress sitemiz 5 dakikada 2 kat daha hızlı hale geldi — ayar yapmadan. Gerçekten aradığımız çözüm.",
         "t2": "SmallPict, birçok HD fotoğrafa rağmen seyahat blogumun süper hızlı yüklenmesine yardımcı oluyor. Google PageSpeed ciddi oranda arttı!",
         "t3": "Ajansımız için en iyi çözüm. Yüzlerce müşteri sitesini yönetmek, sunucular hakkında endişelenmeden çok daha verimli."
     },

@@ -4,8 +4,8 @@
         "getStarted": "Rozpocznij"
     },
     "Hero": {
-        "headline": "Wolna strona przez <blue>duże zdjęcia?</blue>",
-        "subheadline": "SmallPict automatycznie zmniejsza rozmiar zdjęć, aby Twoja strona była szybsza — bez skomplikowanych ustawień.",
+        "headline": "Wolna strona WordPress przez <blue>duże zdjęcia?</blue>",
+        "subheadline": "SmallPict automatycznie zmniejsza rozmiar zdjęć, aby Twoja strona WordPress była szybsza — bez skomplikowanych ustawień.",
         "ctaPrimary": "Wypróbuj za Darmo",
         "ctaSecondary": "Zobacz Demo",
         "before": "Przed",
@@ -13,7 +13,7 @@
         "compressResult": "Wynik"
     },
     "Benefits": {
-        "speed": "Szybsza strona",
+        "speed": "Szybsza strona WordPress",
         "quality": "Ostre zdjęcia",
         "simple": "Bez trudnych ustawień",
         "bandwidth": "Oszczędność transferu"
@@ -78,13 +78,13 @@
         "step1_desc": "Pobierz i zainstaluj wtyczkę SmallPict w panelu WordPress.",
         "step2_title": "Automatyczna Optymalizacja",
         "step2_desc": "Przesyłaj zdjęcia jak zwykle. SmallPict działa w tle, kompresując je.",
-        "step3_title": "Szybsza Strona",
+        "step3_title": "Szybsza Strona WordPress",
         "step3_desc": "Ciesz się natychmiastowym ładowaniem i lepszymi wynikami SEO."
     },
     "Testimonials": {
         "title": "Opinie",
         "heading": "Zaufali nam twórcy treści",
-        "t1": "Nasza strona jest 2x szybsza w 5 minut — bez ustawień. To dokładnie to rozwiązanie, którego szukaliśmy.",
+        "t1": "Nasza strona WordPress jest 2x szybsza w 5 minut — bez ustawień. To dokładnie to rozwiązanie, którego szukaliśmy.",
         "t2": "SmallPict pomaga mojemu blogowi podróżniczemu ładować się super szybko pomimo wielu zdjęć HD. Google PageSpeed drastycznie wzrósł!",
         "t3": "Najlepsze rozwiązanie dla naszej agencji. Zarządzanie setkami stron klientów jest znacznie bardziej efektywne bez martwienia się o serwery."
     },

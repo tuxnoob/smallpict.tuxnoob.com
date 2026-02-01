@@ -4,8 +4,8 @@
         "getStarted": "Get Started"
     },
     "Hero": {
-        "headline": "Website lambat karena <blue>gambar berat?</blue>",
-        "subheadline": "SmallPict otomatis memperkecil ukuran gambar supaya website kamu lebih cepat — tanpa ribet setting apa pun.",
+        "headline": "Website WordPress lambat karena <blue>gambar berat?</blue>",
+        "subheadline": "SmallPict otomatis memperkecil ukuran gambar supaya website WordPress kamu lebih cepat — tanpa ribet setting apa pun.",
         "ctaPrimary": "Coba Gratis Sekarang",
         "ctaSecondary": "Lihat Demo",
         "before": "Sebelum",
@@ -13,14 +13,14 @@
         "compressResult": "Hasil Kompresi"
     },
     "Benefits": {
-        "speed": "Website lebih cepat",
+        "speed": "Website WordPress lebih cepat",
         "quality": "Gambar tetap tajam",
         "simple": "Tidak perlu setting rumit",
         "bandwidth": "Hemat bandwidth dan storage"
     },
     "Features": {
         "title": "Fitur Unggulan",
-        "subtitle": "Semua yang Anda butuhkan untuk website super cepat",
+        "subtitle": "Semua yang Anda butuhkan untuk website WordPress super cepat",
         "f1_title": "Tidak Perlu Setting Rumit",
         "f1_desc": "Install plugin, aktifkan, dan selesai. Tidak perlu konfigurasi server yang membingungkan atau API key yang ribet.",
         "f2_title": "Gambar Tetap Tajam",
@@ -31,7 +31,7 @@
     "Pricing": {
         "title": "Harga",
         "heading": "Harga Transparan & Masuk Akal",
-        "subheading": "Pilih paket yang sesuai dengan kebutuhan website Anda. Tanpa biaya tersembunyi.",
+        "subheading": "Pilih paket yang sesuai dengan kebutuhan website WordPress Anda. Tanpa biaya tersembunyi.",
         "monthly": "Bulanan",
         "annual": "Tahunan",
         "annualDiscount": "(-20%)",
@@ -73,23 +73,23 @@
     },
     "HowItWorks": {
         "title": "Cara Kerja",
-        "subtitle": "Tiga langkah mudah menuju website yang lebih ringan.",
+        "subtitle": "Tiga langkah mudah menuju website WordPress yang lebih ringan.",
         "step1_title": "Install Plugin",
         "step1_desc": "Download dan install plugin SmallPict di WordPress dashboard Anda.",
         "step2_title": "Otomatis Optimasi",
         "step2_desc": "Upload gambar seperti biasa. SmallPict bekerja di latar belakang mengompresi gambar.",
-        "step3_title": "Website Lebih Cepat",
+        "step3_title": "Website WordPress Lebih Cepat",
         "step3_desc": "Nikmati loading speed yang instan dan skor SEO yang lebih baik."
     },
     "Testimonials": {
         "title": "Testimonials",
         "heading": "Dipercaya oleh Content Creator",
-        "t1": "Website kami 2x lebih cepat dalam 5 menit — tanpa setting apa pun. Benar-benar solusi yang kami cari selama ini.",
+        "t1": "Website WordPress kami 2x lebih cepat dalam 5 menit — tanpa setting apa pun. Benar-benar solusi yang kami cari selama ini.",
         "t2": "SmallPict membantu blog travel saya loading super cepat meski banyak foto resolusi tinggi. Google PageSpeed naik drastis!",
         "t3": "Solusi terbaik untuk agency kami. Mengelola ratusan situs klien jadi jauh lebih efisien tanpa pusing mikirin server."
     },
     "Footer": {
         "rights": "SmallPict (TuxNoob). All rights reserved.",
-        "brandMessage": "SmallPict — solusi ringan untuk website yang ingin tetap cepat tanpa kompromi kualitas."
+        "brandMessage": "SmallPict — solusi ringan untuk website WordPress yang ingin tetap cepat tanpa kompromi kualitas."
     }
 }
