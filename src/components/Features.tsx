@@ -1,43 +1,43 @@
 "use client";
 
 import { motion } from "framer-motion";
-import { Wand2, Zap, Server } from "lucide-react"; // I need to check if lucide-react is installed, yes it is in package.json
-
-const features = [
-    {
-        name: "Tidak Perlu Setting Rumit",
-        description: "Install plugin, aktifkan, dan selesai. Tidak perlu konfigurasi server yang membingungkan atau API key yang ribet.",
-        icon: Wand2,
-        originalTitle: "Simply Magical",
-    },
-    {
-        name: "Gambar Tetap Tajam",
-        description: "Teknologi AI cerdas memastikan ukuran file sekecil mungkin tanpa mengorbankan kualitas visual foto Anda.",
-        icon: Zap,
-        originalTitle: "Premium Quality",
-    },
-    {
-        name: "Tanpa Beban Server",
-        description: "Proses kompresi dilakukan di cloud kami, jadi server hosting Anda tetap ringan dan cepat. Cocok untuk semua jenis hosting.",
-        icon: Server,
-        originalTitle: "Zero Server Load",
-    },
-];
+import { Wand2, Zap, Server } from "lucide-react";
+import { useTranslations } from "next-intl";
 
 export default function Features() {
+    const t = useTranslations("Features");
+
+    const features = [
+        {
+            name: t("f1_title"),
+            description: t("f1_desc"),
+            icon: Wand2,
+        },
+        {
+            name: t("f2_title"),
+            description: t("f2_desc"),
+            icon: Zap,
+        },
+        {
+            name: t("f3_title"),
+            description: t("f3_desc"),
+            icon: Server,
+        },
+    ];
+
     return (
         <section className="py-24 bg-gray-50">
             <div className="mx-auto max-w-7xl px-6 lg:px-8">
                 <div className="mx-auto max-w-2xl text-center mb-16">
-                    <h2 className="text-base font-semibold leading-7 text-blue-600">Fitur Unggulan</h2>
+                    <h2 className="text-base font-semibold leading-7 text-blue-600">{t("title")}</h2>
                     <p className="mt-2 text-3xl font-bold tracking-tight text-gray-900 sm:text-4xl">
-                        Semua yang Anda butuhkan untuk website super cepat
+                        {t("subtitle")}
                     </p>
                 </div>
                 <div className="mx-auto max-w-7xl grid grid-cols-1 md:grid-cols-3 gap-8">
                     {features.map((feature, index) => (
                         <motion.div
-                            key={feature.name}
+                            key={features.indexOf(feature)} // Use index/content as key since names might change on lang switch
                             initial={{ opacity: 0, y: 20 }}
                             whileInView={{ opacity: 1, y: 0 }}
                             viewport={{ once: true }}

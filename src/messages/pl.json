@@ -1,0 +1,95 @@
+{
+    "Navbar": {
+        "docs": "Dokumentacja",
+        "getStarted": "Rozpocznij"
+    },
+    "Hero": {
+        "headline": "Wolna strona przez <blue>duże zdjęcia?</blue>",
+        "subheadline": "SmallPict automatycznie zmniejsza rozmiar zdjęć, aby Twoja strona była szybsza — bez skomplikowanych ustawień.",
+        "ctaPrimary": "Wypróbuj za Darmo",
+        "ctaSecondary": "Zobacz Demo",
+        "before": "Przed",
+        "after": "Po",
+        "compressResult": "Wynik"
+    },
+    "Benefits": {
+        "speed": "Szybsza strona",
+        "quality": "Ostre zdjęcia",
+        "simple": "Bez trudnych ustawień",
+        "bandwidth": "Oszczędność transferu"
+    },
+    "Features": {
+        "title": "Kluczowe Funkcje",
+        "subtitle": "Wszystko, czego potrzebujesz do superszybkiej strony",
+        "f1_title": "Po Prostu Magia",
+        "f1_desc": "Zainstaluj, aktywuj i gotowe. Bez mylącej konfiguracji serwera czy skomplikowanych kluczy API.",
+        "f2_title": "Jakość Premium",
+        "f2_desc": "Inteligentna technologia AI zapewnia najmniejszy możliwy rozmiar pliku bez utraty jakości wizualnej.",
+        "f3_title": "Zero Obciążenia Serwera",
+        "f3_desc": "Kompresja odbywa się w naszej chmurze, więc Twój hosting pozostaje lekki i szybki. Działa z każdym hostingiem."
+    },
+    "Pricing": {
+        "title": "Cennik",
+        "heading": "Przejrzyste i Rozsądne Ceny",
+        "subheading": "Wybierz plan dopasowany do Twoich potrzeb. Bez ukrytych opłat.",
+        "monthly": "Miesięcznie",
+        "annual": "Rocznie",
+        "annualDiscount": "(-20%)",
+        "monthSuffix": "/msc",
+        "yearSuffix": "/rok",
+        "plans": {
+            "free": {
+                "title": "Darmowy",
+                "description": "Dla hobby i testów.",
+                "button": "Wypróbuj za Darmo"
+            },
+            "starter": {
+                "title": "Starter",
+                "description": "Dla blogerów / stron osobistych",
+                "button": "Wybierz Starter"
+            },
+            "pro": {
+                "title": "Pro",
+                "description": "Dla firm i profesjonalistów",
+                "button": "Wybierz Pro",
+                "popular": "Popularny"
+            },
+            "business": {
+                "title": "Business",
+                "description": "Dla agencji / multi-site",
+                "button": "Wybierz Business"
+            },
+            "agency": {
+                "title": "Agency",
+                "description": "Dla dużych agencji",
+                "button": "Wybierz Agency"
+            },
+            "enterprise": {
+                "title": "Enterprise",
+                "description": "Dla dużej skali",
+                "button": "Skontaktuj się"
+            }
+        }
+    },
+    "HowItWorks": {
+        "title": "Jak To Działa",
+        "subtitle": "Trzy proste kroki do lżejszej strony.",
+        "step1_title": "Zainstaluj Wtyczkę",
+        "step1_desc": "Pobierz i zainstaluj wtyczkę SmallPict w panelu WordPress.",
+        "step2_title": "Automatyczna Optymalizacja",
+        "step2_desc": "Przesyłaj zdjęcia jak zwykle. SmallPict działa w tle, kompresując je.",
+        "step3_title": "Szybsza Strona",
+        "step3_desc": "Ciesz się natychmiastowym ładowaniem i lepszymi wynikami SEO."
+    },
+    "Testimonials": {
+        "title": "Opinie",
+        "heading": "Zaufali nam twórcy treści",
+        "t1": "Nasza strona jest 2x szybsza w 5 minut — bez ustawień. To dokładnie to rozwiązanie, którego szukaliśmy.",
+        "t2": "SmallPict pomaga mojemu blogowi podróżniczemu ładować się super szybko pomimo wielu zdjęć HD. Google PageSpeed drastycznie wzrósł!",
+        "t3": "Najlepsze rozwiązanie dla naszej agencji. Zarządzanie setkami stron klientów jest znacznie bardziej efektywne bez martwienia się o serwery."
+    },
+    "Footer": {
+        "rights": "SmallPict (TuxNoob). Wszelkie prawa zastrzeżone.",
+        "brandMessage": "SmallPict — lekkie rozwiązanie dla stron, które chcą pozostać szybkie bez kompromisów w jakości."
+    }
+}

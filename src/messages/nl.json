@@ -1,0 +1,95 @@
+{
+    "Navbar": {
+        "docs": "Documentatie",
+        "getStarted": "Beginnen"
+    },
+    "Hero": {
+        "headline": "Trage website door <blue>zware afbeeldingen?</blue>",
+        "subheadline": "SmallPict verkleint automatisch afbeeldingen zodat uw website sneller is — zonder ingewikkelde instellingen.",
+        "ctaPrimary": "Probeer Gratis",
+        "ctaSecondary": "Bekijk Demo",
+        "before": "Voor",
+        "after": "Na",
+        "compressResult": "Resultaat"
+    },
+    "Benefits": {
+        "speed": "Snellere website",
+        "quality": "Scherpe afbeeldingen",
+        "simple": "Geen complexe instellingen",
+        "bandwidth": "Bespaar bandbreedte"
+    },
+    "Features": {
+        "title": "Belangrijkste Kenmerken",
+        "subtitle": "Alles wat u nodig heeft voor een supersnelle website",
+        "f1_title": "Gewoon Magisch",
+        "f1_desc": "Installeren, activeren en klaar. Geen verwarrende serverconfiguratie of ingewikkelde API-sleutels.",
+        "f2_title": "Premium Kwaliteit",
+        "f2_desc": "Slimme AI-technologie zorgt voor de kleinst mogelijke bestandsgrootte zonder visuele kwaliteit op te offeren.",
+        "f3_title": "Geen Serverbelasting",
+        "f3_desc": "Compressie gebeurt in onze cloud, dus uw hosting blijft licht en snel. Werkt met alle hostings."
+    },
+    "Pricing": {
+        "title": "Prijzen",
+        "heading": "Transparante en Redelijke Prijzen",
+        "subheading": "Kies het plan dat bij u past. Geen verborgen kosten.",
+        "monthly": "Maandelijks",
+        "annual": "Jaarlijks",
+        "annualDiscount": "(-20%)",
+        "monthSuffix": "/mnd",
+        "yearSuffix": "/jr",
+        "plans": {
+            "free": {
+                "title": "Gratis",
+                "description": "Voor hobby's en testen.",
+                "button": "Gratis Proberen"
+            },
+            "starter": {
+                "title": "Starter",
+                "description": "Voor bloggers / persoonlijke sites",
+                "button": "Kies Starter"
+            },
+            "pro": {
+                "title": "Pro",
+                "description": "Voor bedrijven & professionals",
+                "button": "Kies Pro",
+                "popular": "Populair"
+            },
+            "business": {
+                "title": "Business",
+                "description": "Voor bureaus / multi-site",
+                "button": "Kies Business"
+            },
+            "agency": {
+                "title": "Agency",
+                "description": "Voor grote bureaus",
+                "button": "Kies Agency"
+            },
+            "enterprise": {
+                "title": "Enterprise",
+                "description": "Voor grote schaal",
+                "button": "Contacteer Ons"
+            }
+        }
+    },
+    "HowItWorks": {
+        "title": "Hoe het werkt",
+        "subtitle": "Drie eenvoudige stappen naar een lichtere website.",
+        "step1_title": "Installeer Plugin",
+        "step1_desc": "Download en installeer de SmallPict-plugin in uw WordPress-dashboard.",
+        "step2_title": "Automatische Optimalisatie",
+        "step2_desc": "Upload afbeeldingen zoals gewoonlijk. SmallPict werkt op de achtergrond om ze te comprimeren.",
+        "step3_title": "Snellere Website",
+        "step3_desc": "Geniet van directe laadtijden en betere SEO-scores."
+    },
+    "Testimonials": {
+        "title": "Getuigenissen",
+        "heading": "Vertrouwd door content creators",
+        "t1": "Onze website is 2x sneller in 5 minuten — zonder instellingen. Echt de oplossing die we zochten.",
+        "t2": "SmallPict helpt mijn reisblog supersnel te laden ondanks veel HD-foto's. Google PageSpeed is drastisch gestegen!",
+        "t3": "De beste oplossing voor ons bureau. Honderden klantensites beheren is veel efficiënter zonder zorgen over servers."
+    },
+    "Footer": {
+        "rights": "SmallPict (TuxNoob). Alle rechten voorbehouden.",
+        "brandMessage": "SmallPict — lichte oplossing voor websites die snel willen blijven zonder kwaliteit in te leveren."
+    }
+}

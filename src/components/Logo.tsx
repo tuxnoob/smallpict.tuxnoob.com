@@ -6,7 +6,7 @@ export default function Logo({ className = "h-8" }: { className?: string }) {
     return (
         <div className={`flex items-center gap-2 font-bold text-xl ${className}`}>
             <Image
-                src="/smallpict-logo.png"
+                src="/smallpict-logo.svg"
                 alt="SmallPict Logo"
                 width={32}
                 height={32}

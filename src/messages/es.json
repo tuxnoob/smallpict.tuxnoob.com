@@ -1,0 +1,95 @@
+{
+    "Navbar": {
+        "docs": "Documentación",
+        "getStarted": "Empezar"
+    },
+    "Hero": {
+        "headline": "¿Sitio lento por <blue>imágenes pesadas?</blue>",
+        "subheadline": "SmallPict reduce automáticamente el tamaño de las imágenes para que tu sitio sea más rápido, sin configuraciones complicadas.",
+        "ctaPrimary": "Prueba Gratis",
+        "ctaSecondary": "Ver Demo",
+        "before": "Antes",
+        "after": "Después",
+        "compressResult": "Resultado"
+    },
+    "Benefits": {
+        "speed": "Sitio más rápido",
+        "quality": "Imágenes nítidas",
+        "simple": "Sin ajustes complejos",
+        "bandwidth": "Ahorra ancho de banda"
+    },
+    "Features": {
+        "title": "Características Clave",
+        "subtitle": "Todo lo que necesitas para un sitio web súper rápido",
+        "f1_title": "Simplemente Mágico",
+        "f1_desc": "Instala, activa y listo. Sin configuraciones de servidor confusas ni claves API complicadas.",
+        "f2_title": "Calidad Premium",
+        "f2_desc": "La tecnología de IA inteligente garantiza el menor tamaño de archivo posible sin sacrificar la calidad visual.",
+        "f3_title": "Carga Cero en Servidor",
+        "f3_desc": "La compresión ocurre en nuestra nube, por lo que tu hosting permanece ligero y rápido. Funciona con todos los hostings."
+    },
+    "Pricing": {
+        "title": "Precios",
+        "heading": "Precios Transparentes y Razonables",
+        "subheading": "Elige el plan que se adapte a tus necesidades. Sin tarifas ocultas.",
+        "monthly": "Mensual",
+        "annual": "Anual",
+        "annualDiscount": "(-20%)",
+        "monthSuffix": "/mes",
+        "yearSuffix": "/año",
+        "plans": {
+            "free": {
+                "title": "Gratis",
+                "description": "Para hobbies y pruebas.",
+                "button": "Probar Gratis"
+            },
+            "starter": {
+                "title": "Starter",
+                "description": "Para bloggers / sitios personales",
+                "button": "Elegir Starter"
+            },
+            "pro": {
+                "title": "Pro",
+                "description": "Para negocios y profesionales",
+                "button": "Elegir Pro",
+                "popular": "Más Popular"
+            },
+            "business": {
+                "title": "Business",
+                "description": "Para agencias / múltiples sitios",
+                "button": "Elegir Business"
+            },
+            "agency": {
+                "title": "Agency",
+                "description": "Para grandes agencias",
+                "button": "Elegir Agency"
+            },
+            "enterprise": {
+                "title": "Enterprise",
+                "description": "Para gran escala",
+                "button": "Contáctanos"
+            }
+        }
+    },
+    "HowItWorks": {
+        "title": "Cómo Funciona",
+        "subtitle": "Tres sencillos pasos para un sitio más ligero.",
+        "step1_title": "Instalar Plugin",
+        "step1_desc": "Descarga e instala el plugin SmallPict en tu panel de WordPress.",
+        "step2_title": "Optimización Automática",
+        "step2_desc": "Sube imágenes como siempre. SmallPict trabaja en segundo plano comprimiéndolas.",
+        "step3_title": "Sitio Más Rápido",
+        "step3_desc": "Disfruta de velocidades de carga instantáneas y mejores puntuaciones SEO."
+    },
+    "Testimonials": {
+        "title": "Testimonios",
+        "heading": "Con la confianza de creadores de contenido",
+        "t1": "Nuestro sitio es 2 veces más rápido en 5 minutos, sin ajustes. Verdaderamente la solución que estábamos buscando.",
+        "t2": "SmallPict ayuda a que mi blog de viajes cargue súper rápido a pesar de muchas fotos de alta resolución. ¡Google PageSpeed subió drásticamente!",
+        "t3": "La mejor solución para nuestra agencia. Gestionar cientos de sitios de clientes es mucho más eficiente sin preocuparse por los servidores."
+    },
+    "Footer": {
+        "rights": "SmallPict (TuxNoob). Todos los derechos reservados.",
+        "brandMessage": "SmallPict — solución ligera para sitios web que quieren mantenerse rápidos sin comprometer la calidad."
+    }
+}

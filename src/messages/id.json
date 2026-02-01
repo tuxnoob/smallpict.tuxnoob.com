@@ -1,0 +1,95 @@
+{
+    "Navbar": {
+        "docs": "Dokumentasi",
+        "getStarted": "Get Started"
+    },
+    "Hero": {
+        "headline": "Website lambat karena <blue>gambar berat?</blue>",
+        "subheadline": "SmallPict otomatis memperkecil ukuran gambar supaya website kamu lebih cepat — tanpa ribet setting apa pun.",
+        "ctaPrimary": "Coba Gratis Sekarang",
+        "ctaSecondary": "Lihat Demo",
+        "before": "Sebelum",
+        "after": "Sesudah",
+        "compressResult": "Hasil Kompresi"
+    },
+    "Benefits": {
+        "speed": "Website lebih cepat",
+        "quality": "Gambar tetap tajam",
+        "simple": "Tidak perlu setting rumit",
+        "bandwidth": "Hemat bandwidth dan storage"
+    },
+    "Features": {
+        "title": "Fitur Unggulan",
+        "subtitle": "Semua yang Anda butuhkan untuk website super cepat",
+        "f1_title": "Tidak Perlu Setting Rumit",
+        "f1_desc": "Install plugin, aktifkan, dan selesai. Tidak perlu konfigurasi server yang membingungkan atau API key yang ribet.",
+        "f2_title": "Gambar Tetap Tajam",
+        "f2_desc": "Teknologi AI cerdas memastikan ukuran file sekecil mungkin tanpa mengorbankan kualitas visual foto Anda.",
+        "f3_title": "Tanpa Beban Server",
+        "f3_desc": "Proses kompresi dilakukan di cloud kami, jadi server hosting Anda tetap ringan dan cepat. Cocok untuk semua jenis hosting."
+    },
+    "Pricing": {
+        "title": "Harga",
+        "heading": "Harga Transparan & Masuk Akal",
+        "subheading": "Pilih paket yang sesuai dengan kebutuhan website Anda. Tanpa biaya tersembunyi.",
+        "monthly": "Bulanan",
+        "annual": "Tahunan",
+        "annualDiscount": "(-20%)",
+        "monthSuffix": "/bln",
+        "yearSuffix": "/thn",
+        "plans": {
+            "free": {
+                "title": "Free",
+                "description": "Untuk hobi & testing.",
+                "button": "Coba Gratis"
+            },
+            "starter": {
+                "title": "Starter",
+                "description": "Untuk blogger / personal site",
+                "button": "Pilih Starter"
+            },
+            "pro": {
+                "title": "Pro",
+                "description": "Untuk bisnis & profesional",
+                "button": "Pilih Pro",
+                "popular": "Paling Laris"
+            },
+            "business": {
+                "title": "Business",
+                "description": "Untuk agency / multi-site",
+                "button": "Pilih Business"
+            },
+            "agency": {
+                "title": "Agency",
+                "description": "Untuk agency besar",
+                "button": "Pilih Agency"
+            },
+            "enterprise": {
+                "title": "Enterprise",
+                "description": "Untuk skala besar",
+                "button": "Hubungi Kami"
+            }
+        }
+    },
+    "HowItWorks": {
+        "title": "Cara Kerja",
+        "subtitle": "Tiga langkah mudah menuju website yang lebih ringan.",
+        "step1_title": "Install Plugin",
+        "step1_desc": "Download dan install plugin SmallPict di WordPress dashboard Anda.",
+        "step2_title": "Otomatis Optimasi",
+        "step2_desc": "Upload gambar seperti biasa. SmallPict bekerja di latar belakang mengompresi gambar.",
+        "step3_title": "Website Lebih Cepat",
+        "step3_desc": "Nikmati loading speed yang instan dan skor SEO yang lebih baik."
+    },
+    "Testimonials": {
+        "title": "Testimonials",
+        "heading": "Dipercaya oleh Content Creator",
+        "t1": "Website kami 2x lebih cepat dalam 5 menit — tanpa setting apa pun. Benar-benar solusi yang kami cari selama ini.",
+        "t2": "SmallPict membantu blog travel saya loading super cepat meski banyak foto resolusi tinggi. Google PageSpeed naik drastis!",
+        "t3": "Solusi terbaik untuk agency kami. Mengelola ratusan situs klien jadi jauh lebih efisien tanpa pusing mikirin server."
+    },
+    "Footer": {
+        "rights": "SmallPict (TuxNoob). All rights reserved.",
+        "brandMessage": "SmallPict — solusi ringan untuk website yang ingin tetap cepat tanpa kompromi kualitas."
+    }
+}

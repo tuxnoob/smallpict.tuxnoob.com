@@ -1,38 +1,41 @@
 "use client";
 
 import { Download, PlayCircle, Gauge } from "lucide-react";
-
-const steps = [
-    {
-        id: 1,
-        title: "Install Plugin",
-        description: "Download dan install plugin SmallPict di WordPress dashboard Anda.",
-        icon: Download,
-    },
-    {
-        id: 2,
-        title: "Otomatis Optimasi",
-        description: "Upload gambar seperti biasa. SmallPict bekerja di latar belakang mengompresi gambar.",
-        icon: PlayCircle,
-    },
-    {
-        id: 3,
-        title: "Website Lebih Cepat",
-        description: "Nikmati loading speed yang instan dan skor SEO yang lebih baik.",
-        icon: Gauge,
-    },
-];
+import { useTranslations } from "next-intl";
 
 export default function HowItWorks() {
+    const t = useTranslations("HowItWorks");
+
+    const steps = [
+        {
+            id: 1,
+            title: t("step1_title"),
+            description: t("step1_desc"),
+            icon: Download,
+        },
+        {
+            id: 2,
+            title: t("step2_title"),
+            description: t("step2_desc"),
+            icon: PlayCircle,
+        },
+        {
+            id: 3,
+            title: t("step3_title"),
+            description: t("step3_desc"),
+            icon: Gauge,
+        },
+    ];
+
     return (
         <section className="py-24 bg-white" id="how-it-works">
             <div className="mx-auto max-w-7xl px-6 lg:px-8">
                 <div className="mx-auto max-w-2xl text-center mb-16">
                     <h2 className="text-3xl font-bold tracking-tight text-gray-900 sm:text-4xl">
-                        Cara Kerja
+                        {t("title")}
                     </h2>
                     <p className="mt-4 text-lg text-gray-600">
-                        Tiga langkah mudah menuju website yang lebih ringan.
+                        {t("subtitle")}
                     </p>
                 </div>
 

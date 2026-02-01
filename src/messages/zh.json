@@ -1,0 +1,95 @@
+{
+    "Navbar": {
+        "docs": "文档",
+        "getStarted": "开始使用"
+    },
+    "Hero": {
+        "headline": "网站速度慢是因为 <blue>图片过大？</blue>",
+        "subheadline": "SmallPict 自动压缩图片大小，让您的网站速度更快 —— 无需任何复杂设置。",
+        "ctaPrimary": "立即免费试用",
+        "ctaSecondary": "观看演示",
+        "before": "压缩前",
+        "after": "压缩后",
+        "compressResult": "压缩结果"
+    },
+    "Benefits": {
+        "speed": "网站速度更快",
+        "quality": "图片清晰依旧",
+        "simple": "无需复杂设置",
+        "bandwidth": "节省带宽和存储"
+    },
+    "Features": {
+        "title": "核心功能",
+        "subtitle": "打造超快网站所需的一切",
+        "f1_title": "简单神奇",
+        "f1_desc": "安装、激活，搞定。没有令人困惑的服务器配置或复杂的 API 密钥。",
+        "f2_title": "优质画质",
+        "f2_desc": "智能 AI 技术确保在不牺牲视觉质量的情况下尽可能减小文件大小。",
+        "f3_title": "零服务器负载",
+        "f3_desc": "压缩在我们云端进行，因此您的托管服务器保持轻量快速。适用于所有托管类型。"
+    },
+    "Pricing": {
+        "title": "价格",
+        "heading": "透明且合理的价格",
+        "subheading": "选择适合您需求的计划。无隐藏费用。",
+        "monthly": "按月",
+        "annual": "按年",
+        "annualDiscount": "(-20%)",
+        "monthSuffix": "/月",
+        "yearSuffix": "/年",
+        "plans": {
+            "free": {
+                "title": "免费版",
+                "description": "用于爱好和测试。",
+                "button": "免费试用"
+            },
+            "starter": {
+                "title": "入门版",
+                "description": "用于博客 / 个人网站",
+                "button": "选择入门版"
+            },
+            "pro": {
+                "title": "专业版",
+                "description": "用于商业 & 专业人士",
+                "button": "选择专业版",
+                "popular": "最受欢迎"
+            },
+            "business": {
+                "title": "商业版",
+                "description": "用于代理商 / 多站点",
+                "button": "选择商业版"
+            },
+            "agency": {
+                "title": "代理版",
+                "description": "用于大型代理商",
+                "button": "选择代理版"
+            },
+            "enterprise": {
+                "title": "企业版",
+                "description": "用于大规模需求",
+                "button": "联系我们"
+            }
+        }
+    },
+    "HowItWorks": {
+        "title": "工作原理",
+        "subtitle": "三个简单步骤，让网站更轻盈。",
+        "step1_title": "安装插件",
+        "step1_desc": "在您的 WordPress 仪表板上下载并安装 SmallPict 插件。",
+        "step2_title": "自动优化",
+        "step2_desc": "像往常一样上传图片。SmallPict 在后台压缩图片。",
+        "step3_title": "网站更快",
+        "step3_desc": "享受即时加载速度和更好的 SEO 分数。"
+    },
+    "Testimonials": {
+        "title": "客户评价",
+        "heading": "深受内容创作者信赖",
+        "t1": "无需任何设置，我们的网站在 5 分钟内快了 2 倍。这就是我们要找的解决方案。",
+        "t2": "SmallPict 帮助我的旅游博客加载超快，尽管有很多高清照片。Google PageSpeed 分数大幅提升！",
+        "t3": "对我们代理商来说是最好的解决方案。管理数百个客户网站变得更加高效，无需担心服务器问题。"
+    },
+    "Footer": {
+        "rights": "SmallPict (TuxNoob). 保留所有权利。",
+        "brandMessage": "SmallPict — 既要速度又要质量的网站的轻量级解决方案。"
+    }
+}

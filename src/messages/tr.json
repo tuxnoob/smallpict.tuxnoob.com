@@ -1,0 +1,95 @@
+{
+    "Navbar": {
+        "docs": "Dokümantasyon",
+        "getStarted": "Başla"
+    },
+    "Hero": {
+        "headline": "<blue>Ağır görseller</blue> yüzünden web sitesi yavaş mı?",
+        "subheadline": "SmallPict, karmaşık ayarlar olmadan web sitenizin daha hızlı olması için görsel boyutlarını otomatik olarak küçültür.",
+        "ctaPrimary": "Ücretsiz Dene",
+        "ctaSecondary": "Demoyu Gör",
+        "before": "Önce",
+        "after": "Sonra",
+        "compressResult": "Sonuç"
+    },
+    "Benefits": {
+        "speed": "Daha hızlı site",
+        "quality": "Net görseller",
+        "simple": "Karmaşık ayarlar yok",
+        "bandwidth": "Bant genişliği tasarrufu"
+    },
+    "Features": {
+        "title": "Temel Özellikler",
+        "subtitle": "Süper hızlı bir web sitesi için ihtiyacınız olan her şey",
+        "f1_title": "Sadece Büyü",
+        "f1_desc": "Yükleyin, etkinleştirin ve bitti. Kafa karıştırıcı sunucu yapılandırması veya karmaşık API anahtarları yok.",
+        "f2_title": "Premium Kalite",
+        "f2_desc": "Akıllı AI teknolojisi, görsel kaliteden ödün vermeden mümkün olan en küçük dosya boyutunu garanti eder.",
+        "f3_title": "Sıfır Sunucu Yükü",
+        "f3_desc": "Sıkıştırma bulutumuzda gerçekleşir, bu nedenle barındırma sunucunuz hafif ve hızlı kalır. Tüm hostinglerle çalışır."
+    },
+    "Pricing": {
+        "title": "Fiyatlandırma",
+        "heading": "Şeffaf ve Makul Fiyatlar",
+        "subheading": "İhtiyaçlarınıza uygun planı seçin. Gizli ücret yok.",
+        "monthly": "Aylık",
+        "annual": "Yıllık",
+        "annualDiscount": "(-20%)",
+        "monthSuffix": "/ay",
+        "yearSuffix": "/yıl",
+        "plans": {
+            "free": {
+                "title": "Ücretsiz",
+                "description": "Hobi ve testler için.",
+                "button": "Ücretsiz Dene"
+            },
+            "starter": {
+                "title": "Başlangıç",
+                "description": "Bloggerlar / kişisel siteler için",
+                "button": "Başlangıç Seç"
+            },
+            "pro": {
+                "title": "Profesyonel",
+                "description": "İşletmeler ve profesyoneller için",
+                "button": "Pro Seç",
+                "popular": "Popüler"
+            },
+            "business": {
+                "title": "İşletme",
+                "description": "Ajanslar / çoklu site için",
+                "button": "Business Seç"
+            },
+            "agency": {
+                "title": "Ajans",
+                "description": "Büyük ajanslar için",
+                "button": "Agency Seç"
+            },
+            "enterprise": {
+                "title": "Kurumsal",
+                "description": "Büyük ölçekli için",
+                "button": "Bize Ulaşın"
+            }
+        }
+    },
+    "HowItWorks": {
+        "title": "Nasıl Çalışır",
+        "subtitle": "Daha hafif bir web sitesi için üç basit adım.",
+        "step1_title": "Eklentiyi Yükle",
+        "step1_desc": "SmallPict eklentisini WordPress panelinize indirin ve yükleyin.",
+        "step2_title": "Otomatik Optimizasyon",
+        "step2_desc": "Görselleri her zamanki gibi yükleyin. SmallPict arka planda çalışarak onları sıkıştırır.",
+        "step3_title": "Daha Hızlı Site",
+        "step3_desc": "Anında yükleme hızlarının ve daha iyi SEO puanlarının keyfini çıkarın."
+    },
+    "Testimonials": {
+        "title": "Görüşler",
+        "heading": "İçerik üreticileri tarafından güveniliyor",
+        "t1": "Sitemiz 5 dakikada 2 kat daha hızlı hale geldi — ayar yapmadan. Gerçekten aradığımız çözüm.",
+        "t2": "SmallPict, birçok HD fotoğrafa rağmen seyahat blogumun süper hızlı yüklenmesine yardımcı oluyor. Google PageSpeed ciddi oranda arttı!",
+        "t3": "Ajansımız için en iyi çözüm. Yüzlerce müşteri sitesini yönetmek, sunucular hakkında endişelenmeden çok daha verimli."
+    },
+    "Footer": {
+        "rights": "SmallPict (TuxNoob). Tüm hakları saklıdır.",
+        "brandMessage": "SmallPict — kaliteden ödün vermeden hızlı kalmak isteyen web siteleri için hafif çözüm."
+    }
+}

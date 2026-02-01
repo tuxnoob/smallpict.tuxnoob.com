@@ -1,0 +1,95 @@
+{
+    "Navbar": {
+        "docs": "ドキュメント",
+        "getStarted": "始める"
+    },
+    "Hero": {
+        "headline": "<blue>重い画像</blue>のせいでサイトが遅いですか？",
+        "subheadline": "SmallPictは画像のサイズを自動的に縮小し、複雑な設定なしでウェブサイトを高速化します。",
+        "ctaPrimary": "無料で試す",
+        "ctaSecondary": "デモを見る",
+        "before": "Before",
+        "after": "After",
+        "compressResult": "圧縮結果"
+    },
+    "Benefits": {
+        "speed": "サイト高速化",
+        "quality": "高画質維持",
+        "simple": "簡単設定",
+        "bandwidth": "帯域幅・ストレージ節約"
+    },
+    "Features": {
+        "title": "主な機能",
+        "subtitle": "超高速サイトに必要なすべて",
+        "f1_title": "魔法のように簡単",
+        "f1_desc": "プラグインをインストールして有効化するだけ。複雑なサーバー設定やAPIキーは不要です。",
+        "f2_title": "プレミアム品質",
+        "f2_desc": "スマートAI技術により、画質を犠牲にすることなくファイルサイズを最小限に抑えます。",
+        "f3_title": "サーバー負荷ゼロ",
+        "f3_desc": "圧縮はクラウドで行われるため、ホスティングサーバーは軽量で高速なままです。すべてのホスティングに対応。"
+    },
+    "Pricing": {
+        "title": "料金",
+        "heading": "透明で納得のいく料金設定",
+        "subheading": "ニーズに合ったプランをお選びください。隠れた費用はありません。",
+        "monthly": "月払い",
+        "annual": "年払い",
+        "annualDiscount": "(-20%)",
+        "monthSuffix": "/月",
+        "yearSuffix": "/年",
+        "plans": {
+            "free": {
+                "title": "Free",
+                "description": "趣味・テスト用",
+                "button": "無料で試す"
+            },
+            "starter": {
+                "title": "Starter",
+                "description": "ブロガー / 個人サイト向け",
+                "button": "Starterを選択"
+            },
+            "pro": {
+                "title": "Pro",
+                "description": "ビジネス / プロ向け",
+                "button": "Proを選択",
+                "popular": "一番人気"
+            },
+            "business": {
+                "title": "Business",
+                "description": "代理店 / 複数サイト向け",
+                "button": "Businessを選択"
+            },
+            "agency": {
+                "title": "Agency",
+                "description": "大規模代理店向け",
+                "button": "Agencyを選択"
+            },
+            "enterprise": {
+                "title": "Enterprise",
+                "description": "大規模な利用向け",
+                "button": "お問い合わせ"
+            }
+        }
+    },
+    "HowItWorks": {
+        "title": "仕組み",
+        "subtitle": "サイト軽量化への3ステップ。",
+        "step1_title": "プラグインをインストール",
+        "step1_desc": "WordPressダッシュボードにSmallPictプラグインをダウンロードしてインストールします。",
+        "step2_title": "自動最適化",
+        "step2_desc": "通常通り画像をアップロード。SmallPictがバックグラウンドで画像を圧縮します。",
+        "step3_title": "サイト高速化",
+        "step3_desc": "瞬時の読み込み速度とSEOスコアの向上を実感してください。"
+    },
+    "Testimonials": {
+        "title": "お客様の声",
+        "heading": "多くのクリエイターに信頼されています",
+        "t1": "設定なしでサイトが5分で2倍速くなりました。まさに探していたソリューションです。",
+        "t2": "高解像度の写真が多い旅行ブログでも、SmallPictのおかげで爆速です。Google PageSpeedも大幅アップ！",
+        "t3": "代理店にとって最高のソリューション。サーバーを気にせず数百のクライアントサイトを効率的に管理できます。"
+    },
+    "Footer": {
+        "rights": "SmallPict (TuxNoob). All rights reserved.",
+        "brandMessage": "SmallPict — 品質を妥協せず、サイトを高速に保つための軽量ソリューション。"
+    }
+}

@@ -1,0 +1,95 @@
+{
+    "Navbar": {
+        "docs": "Documentation",
+        "getStarted": "Get Started"
+    },
+    "Hero": {
+        "headline": "Slow website due to <blue>heavy images?</blue>",
+        "subheadline": "SmallPict automatically reduces image sizes so your website is faster — without any complicated settings.",
+        "ctaPrimary": "Try Free Now",
+        "ctaSecondary": "View Demo",
+        "before": "Before",
+        "after": "After",
+        "compressResult": "Compression Result"
+    },
+    "Benefits": {
+        "speed": "Faster website",
+        "quality": "Sharp images",
+        "simple": "No complex settings",
+        "bandwidth": "Save bandwidth & storage"
+    },
+    "Features": {
+        "title": "Key Features",
+        "subtitle": "Everything you need for a super fast website",
+        "f1_title": "Simply Magical",
+        "f1_desc": "Install, activate, and done. No confusing server configuration or complicated API keys.",
+        "f2_title": "Premium Quality",
+        "f2_desc": "Smart AI technology ensures the smallest possible file size without sacrificing visual quality.",
+        "f3_title": "Zero Server Load",
+        "f3_desc": "Compression happens in our cloud, so your hosting server stays light and fast. Works with all hosting types."
+    },
+    "Pricing": {
+        "title": "Pricing",
+        "heading": "Transparent & Reasonable Pricing",
+        "subheading": "Choose the plan that fits your needs. No hidden fees.",
+        "monthly": "Monthly",
+        "annual": "Annual",
+        "annualDiscount": "(-20%)",
+        "monthSuffix": "/mo",
+        "yearSuffix": "/yr",
+        "plans": {
+            "free": {
+                "title": "Free",
+                "description": "For hobbies & testing.",
+                "button": "Try For Free"
+            },
+            "starter": {
+                "title": "Starter",
+                "description": "For bloggers / personal sites",
+                "button": "Choose Starter"
+            },
+            "pro": {
+                "title": "Pro",
+                "description": "For business & professionals",
+                "button": "Choose Pro",
+                "popular": "Most Popular"
+            },
+            "business": {
+                "title": "Business",
+                "description": "For agencies / multi-site",
+                "button": "Choose Business"
+            },
+            "agency": {
+                "title": "Agency",
+                "description": "For large agencies",
+                "button": "Choose Agency"
+            },
+            "enterprise": {
+                "title": "Enterprise",
+                "description": "For large scale",
+                "button": "Contact Us"
+            }
+        }
+    },
+    "HowItWorks": {
+        "title": "How It Works",
+        "subtitle": "Three easy steps to a lighter website.",
+        "step1_title": "Install Plugin",
+        "step1_desc": "Download and install the SmallPict plugin on your WordPress dashboard.",
+        "step2_title": "Automatic Optimization",
+        "step2_desc": "Upload images as usual. SmallPict works in the background compressing images.",
+        "step3_title": "Faster Website",
+        "step3_desc": "Enjoy instant loading speeds and better SEO scores."
+    },
+    "Testimonials": {
+        "title": "Testimonials",
+        "heading": "Trusted by Content Creators",
+        "t1": "Our website is 2x faster in 5 minutes — without any settings. Truly the solution we've been looking for.",
+        "t2": "SmallPict helps my travel blog load super fast despite many high-res photos. Google PageSpeed went up drastically!",
+        "t3": "Best solution for our agency. Managing hundreds of client sites is much more efficient without worrying about servers."
+    },
+    "Footer": {
+        "rights": "SmallPict (TuxNoob). All rights reserved.",
+        "brandMessage": "SmallPict — lightweight solution for websites that want to stay fast without compromising quality."
+    }
+}

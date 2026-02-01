@@ -1,13 +1,19 @@
+"use client";
+
+import { useTranslations } from 'next-intl';
+
 export default function Footer() {
+    const t = useTranslations('Footer');
+
     return (
         <footer className="bg-white border-t border-gray-100">
-            <div className="mx-auto max-w-7xl px-6 py-12 md:flex md:items-center md:justify-between lg:px-8">
-                <div className="mt-8 md:order-1 md:mt-0">
-                    <p className="text-center text-xs leading-5 text-gray-500">
-                        &copy; {new Date().getFullYear()} SmallPict (TuxNoob). All rights reserved.
+            <div className="mx-auto max-w-7xl px-6 py-12 flex flex-col items-center justify-center lg:px-8">
+                <div className="text-center">
+                    <p className="text-xs leading-5 text-gray-500">
+                        &copy; {new Date().getFullYear()} {t('rights')}
                     </p>
-                    <p className="mt-2 text-center text-sm leading-6 text-gray-600 italic">
-                        "SmallPict — solusi ringan untuk website yang ingin tetap cepat tanpa kompromi kualitas."
+                    <p className="mt-2 text-sm leading-6 text-gray-600 italic max-w-2xl mx-auto">
+                        "{t('brandMessage')}"
                     </p>
                 </div>
             </div>
