@@ -21,6 +21,12 @@ export const metadata: Metadata = {
   description: "Smart Image Compression for WordPress",
 };
 
+import { setRequestLocale } from 'next-intl/server';
+
+export function generateStaticParams() {
+  return ['en', 'id', 'zh', 'ja', 'ru', 'es', 'fr', 'de', 'pt', 'ar', 'hi', 'ko', 'it', 'nl', 'pl', 'tr', 'vi', 'th'].map((locale) => ({ locale }));
+}
+
 export default async function LocaleLayout({
   children,
   params
@@ -29,6 +35,9 @@ export default async function LocaleLayout({
   params: Promise<{ locale: string }>;
 }) {
   const { locale } = await params;
+
+  // Enable static rendering
+  setRequestLocale(locale);
 
   // Ensure that the incoming `locale` is valid
   if (!['en', 'id', 'zh', 'ja', 'ru', 'es', 'fr', 'de', 'pt', 'ar', 'hi', 'ko', 'it', 'nl', 'pl', 'tr', 'vi', 'th'].includes(locale)) {
