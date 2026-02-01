@@ -30,10 +30,10 @@ const PLANS: PlanConfig[] = [
         title: 'Free',
         monthlyPrice: '$0',
         annualPrice: '$0',
-        description: 'For hobbyists and testing.',
-        features: ['20 MB Monthly Quota', '2 MB Max File', 'WebP Conversion', 'No Scaling (Queue)', 'Community Support'],
+        description: 'Untuk hobi & testing.',
+        features: ['20 MB Kuota Bulanan', '2 MB Max File', 'Konversi WebP', 'No Scaling (Queue)', 'Support Komunitas'],
         quota: '20 MB',
-        buttonText: 'Get Free',
+        buttonText: 'Coba Gratis',
         licenseConfig: 'single'
     },
     {
@@ -42,8 +42,8 @@ const PLANS: PlanConfig[] = [
         title: 'Starter',
         monthlyPrice: '$5',
         annualPrice: '$50',
-        description: 'For personal blogs.',
-        features: ['200 MB Monthly Quota', '10 MB Max File', 'WebP Conversion', 'No Scaling (Instant)', 'Email Support'],
+        description: 'Untuk blogger / personal site',
+        features: ['200 MB Kuota Bulanan', '10 MB Max File', 'Konversi WebP', 'No Scaling (Instant)', 'Email Support'],
         quota: '200 MB',
         licenseConfig: 'single'
     },
@@ -53,8 +53,8 @@ const PLANS: PlanConfig[] = [
         title: 'Pro',
         monthlyPrice: '$15',
         annualPrice: '$150',
-        description: 'For professionals.',
-        features: ['600 MB Monthly Quota', '32 MB Max File', 'AVIF + WebP', 'Standard Scaling', 'Priority Support'],
+        description: 'Untuk bisnis & profesional',
+        features: ['600 MB Kuota Bulanan', '32 MB Max File', 'AVIF + WebP', 'Standard Scaling', 'Priority Support'],
         quota: '600 MB',
         highlight: true,
         licenseConfig: 'single'
@@ -65,8 +65,8 @@ const PLANS: PlanConfig[] = [
         title: 'Business',
         monthlyPrice: '$39',
         annualPrice: '$450',
-        description: 'For growing sites.',
-        features: ['1.5 GB Monthly Quota', '64 MB Max File', 'AVIF + WebP', 'Aggressive Scaling', 'Premium Support'],
+        description: 'Untuk agency / multi-site',
+        features: ['1.5 GB Kuota Bulanan', '64 MB Max File', 'AVIF + WebP', 'Aggressive Scaling', 'Premium Support'],
         quota: '1.5 GB',
         licenseConfig: 'select'
     },
@@ -142,12 +142,12 @@ export default function PricingSection() {
 
             <div className="mx-auto max-w-7xl px-6 lg:px-8 text-center">
                 <div className="mx-auto max-w-4xl text-center">
-                    <h2 className="text-base font-semibold leading-7 text-blue-600">Pricing</h2>
+                    <h2 className="text-base font-semibold leading-7 text-blue-600">Harga</h2>
                     <p className="mt-2 text-4xl font-bold tracking-tight text-gray-900 sm:text-5xl">
-                        Simple, transparent pricing
+                        Harga Transparan & Masuk Akal
                     </p>
                     <p className="mt-6 text-lg leading-8 text-gray-600">
-                        Choose the plan that fits your needs. No hidden fees.
+                        Pilih paket yang sesuai dengan kebutuhan website Anda. Tanpa biaya tersembunyi.
                     </p>
                 </div>
 
@@ -159,14 +159,14 @@ export default function PricingSection() {
                             className={`${billingCycle === 'monthly' ? 'bg-white shadow-sm text-gray-900' : 'text-gray-500 hover:text-gray-900'} relative py-2 px-6 border-transparent rounded-md text-sm font-medium whitespace-nowrap focus:outline-none focus:ring-2 focus:ring-indigo-500 focus:z-10 transition-all`}
                             onClick={() => setBillingCycle('monthly')}
                         >
-                            Monthly billing
+                            Bulanan
                         </button>
                         <button
                             type="button"
                             className={`${billingCycle === 'annual' ? 'bg-white shadow-sm text-gray-900' : 'text-gray-500 hover:text-gray-900'} relative py-2 px-6 border-transparent rounded-md text-sm font-medium whitespace-nowrap focus:outline-none focus:ring-2 focus:ring-indigo-500 focus:z-10 transition-all`}
                             onClick={() => setBillingCycle('annual')}
                         >
-                            Annual billing <span className="text-xs text-green-600 font-bold ml-1">(-20%)</span>
+                            Tahunan <span className="text-xs text-green-600 font-bold ml-1">(-20%)</span>
                         </button>
                     </div>
                 </div>
@@ -196,7 +196,7 @@ export default function PricingSection() {
                                     </span>
                                     {plan.monthlyPrice !== 'Custom' && plan.monthlyPrice !== '$0' && (
                                         <span className="text-sm font-semibold leading-6 text-gray-600">
-                                            {billingCycle === 'monthly' ? '/mo' : '/yr'}
+                                            {billingCycle === 'monthly' ? '/bln' : '/thn'}
                                         </span>
                                     )}
                                 </p>
@@ -240,7 +240,7 @@ export default function PricingSection() {
                                         : 'bg-blue-50 text-blue-600 hover:bg-blue-100 ring-1 ring-inset ring-blue-200 transition-all'
                                     }`}
                             >
-                                {plan.buttonText || 'Buy ' + plan.title}
+                                {plan.buttonText || (plan.monthlyPrice === '$0' ? 'Coba Gratis' : 'Pilih ' + plan.title)}
                             </a>
                         </div>
                     ))}

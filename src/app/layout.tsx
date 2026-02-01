@@ -18,7 +18,6 @@ export const metadata: Metadata = {
   description: "Documentation for SmallPict WordPress Plugin",
 };
 
-import Sidebar from "@/components/Sidebar";
 
 export default function RootLayout({
   children,
@@ -45,12 +44,7 @@ export default function RootLayout({
         </Script>
         {/* GA4 Integration End */}
 
-        <div className="flex min-h-screen">
-          <Sidebar />
-          <div className="flex-1">
-            {children}
-          </div>
-        </div>
+        {children}
       </body>
     </html>
   );
