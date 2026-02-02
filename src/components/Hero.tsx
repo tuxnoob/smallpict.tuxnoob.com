@@ -55,17 +55,17 @@ export default function Hero() {
                                 <div className="aspect-[16/10] bg-gradient-to-tr from-blue-100 to-indigo-50 flex items-center justify-center p-10">
                                     <div className="text-center">
                                         <div className="text-4xl mb-4">⚡</div>
-                                        <div className="text-gray-900 font-bold text-xl">{t('compressResult')}</div>
+                                        <div className="text-gray-900 font-bold text-xl mb-4">{t('compressResult')}</div>
                                         <div className="mt-4 flex flew-row gap-8 justify-center items-end">
                                             <div className="flex flex-col items-center">
                                                 <div className="h-32 w-16 bg-red-200 rounded-t-lg relative group">
-                                                    <span className="absolute -top-8 left-1/2 -translate-x-1/2 text-sm font-bold text-red-500">2.3MB</span>
+                                                    <span className="absolute bottom-2 left-1/2 -translate-x-1/2 text-sm font-bold text-red-500">2.3MB</span>
                                                 </div>
                                                 <span className="mt-2 text-sm text-gray-500">{t('before')}</span>
                                             </div>
                                             <div className="flex flex-col items-center">
-                                                <div className="h-8 w-16 bg-green-500 rounded-t-lg relative group">
-                                                    <span className="absolute -top-8 left-1/2 -translate-x-1/2 text-sm font-bold text-green-600">350KB</span>
+                                                <div className="h-12 w-16 bg-green-500 rounded-t-lg relative group">
+                                                    <span className="absolute bottom-2 left-1/2 -translate-x-1/2 text-sm font-bold text-green-800">350KB</span>
                                                 </div>
                                                 <span className="mt-2 text-sm text-gray-500">{t('after')}</span>
                                             </div>

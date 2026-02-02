@@ -180,7 +180,7 @@ export default function PricingSection() {
                 {/* Grid */}
                 <div className="isolate mx-auto mt-16 grid max-w-md grid-cols-1 gap-y-8 sm:mt-20 lg:mx-0 lg:max-w-none lg:grid-cols-3">
                     {PLANS.map((plan) => (
-                        <div key={plan.id} className={`flex flex-col justify-between rounded-3xl bg-white p-8 ring-1 ring-gray-200 xl:p-10 ${plan.highlight ? 'ring-2 ring-blue-600 shadow-xl scale-105 z-10' : ''}`}>
+                        <div key={plan.id} className={`flex flex-col justify-between rounded-3xl bg-white p-8 mx-4 ring-1 ring-gray-200 xl:p-10 ${plan.highlight ? 'ring-2 ring-blue-600 shadow-xl scale-105 z-10' : ''}`}>
                             <div>
                                 <div className="flex items-center justify-between gap-x-4">
                                     <h3 className={`text-2xl font-semibold leading-8 ${plan.highlight ? 'text-blue-600' : 'text-gray-900'}`}>{plan.title}</h3>
