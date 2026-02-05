@@ -1,6 +1,22 @@
 import { useTranslations } from 'next-intl';
+import { setRequestLocale } from 'next-intl/server';
 
-export default function TermsPage() {
+export function generateStaticParams() {
+    return ['en', 'id', 'zh', 'ja', 'ru', 'es', 'fr', 'de', 'pt', 'ar', 'hi', 'ko', 'it', 'nl', 'pl', 'tr', 'vi', 'th'].map((locale) => ({ locale }));
+}
+
+export default async function TermsPage({
+    params
+}: {
+    params: Promise<{ locale: string }>;
+}) {
+    const { locale } = await params;
+    setRequestLocale(locale);
+
+    return <TermsContent />;
+}
+
+function TermsContent() {
     const t = useTranslations('Terms');
 
     return (

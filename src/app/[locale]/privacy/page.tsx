@@ -1,6 +1,22 @@
 import { useTranslations } from 'next-intl';
+import { setRequestLocale } from 'next-intl/server';
 
-export default function PrivacyPage() {
+export function generateStaticParams() {
+    return ['en', 'id', 'zh', 'ja', 'ru', 'es', 'fr', 'de', 'pt', 'ar', 'hi', 'ko', 'it', 'nl', 'pl', 'tr', 'vi', 'th'].map((locale) => ({ locale }));
+}
+
+export default async function PrivacyPage({
+    params
+}: {
+    params: Promise<{ locale: string }>;
+}) {
+    const { locale } = await params;
+    setRequestLocale(locale);
+
+    return <PrivacyContent />;
+}
+
+function PrivacyContent() {
     const t = useTranslations('Privacy');
 
     return (
