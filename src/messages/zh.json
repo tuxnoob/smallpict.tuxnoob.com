@@ -90,6 +90,52 @@
     },
     "Footer": {
         "rights": "SmallPict (TuxNoob). 保留所有权利。",
-        "brandMessage": "SmallPict — 既要速度又要质量的WordPress 网站的轻量级解决方案。"
+        "brandMessage": "SmallPict — 既要速度又要质量的WordPress 网站的轻量级解决方案。",
+        "privacy": "隐私政策",
+        "terms": "服务条款",
+        "docs": "文档",
+        "contact": "联系我们"
+    },
+    "Privacy": {
+        "title": "隐私政策",
+        "lastUpdated": "最后更新：2026年2月",
+        "s1_title": "1. 简介",
+        "s1_content": "SmallPict尊重您的隐私，并致力于保护您的个人数据。本隐私政策解释了当您使用我们的WordPress图片优化服务时，我们如何收集、使用和保护您的信息。",
+        "s2_title": "2. 我们收集的数据",
+        "s2_content": "我们收集以下类型的信息：",
+        "s2_item1": "账户信息：激活插件时的电子邮件地址和网站URL。",
+        "s2_item2": "使用数据：处理的图片数量、文件大小和优化统计。",
+        "s2_item3": "技术数据：WordPress版本、PHP版本和插件版本用于兼容性。",
+        "s3_title": "3. 图片处理与存储",
+        "s3_content": "我们不存储您的图片。当您通过我们的服务上传图片时：",
+        "s3_item1": "您的图片在我们安全的云基础设施中临时处理。",
+        "s3_item2": "优化后的图片立即发送回您的WordPress网站。",
+        "s3_item3": "原始版本和优化版本在几分钟内从我们的服务器删除。",
+        "s3_item4": "我们不保留您图片的任何副本。",
+        "s4_title": "4. 数据安全",
+        "s4_content": "我们实施行业标准安全措施，包括传输加密（HTTPS/TLS）、安全云基础设施和定期安全审计来保护您的数据。",
+        "s5_title": "5. 您的权利",
+        "s5_content": "您有权访问、更正或删除您的个人数据。如有数据相关请求，请联系privacy@tuxnoob.com。",
+        "s6_title": "6. 联系我们",
+        "s6_content": "如有关于本隐私政策的问题，请联系：privacy@tuxnoob.com"
+    },
+    "Terms": {
+        "title": "服务条款",
+        "lastUpdated": "最后更新：2026年2月",
+        "s1_title": "1. 条款接受",
+        "s1_content": "使用SmallPict即表示您同意受这些服务条款的约束。如不同意这些条款，请勿使用我们的服务。",
+        "s2_title": "2. 服务描述",
+        "s2_content": "SmallPict是WordPress的云端图片优化服务。我们提供自动压缩和格式转换（WebP、AVIF）来帮助提升您网站的性能。",
+        "s3_title": "3. 使用限制与合理使用",
+        "s3_content": "每个订阅计划包含月度图片处理配额：",
+        "s3_item1": "免费版：有限的月度配额用于个人/测试使用。",
+        "s3_item2": "付费版：根据您的订阅级别获得更高配额。",
+        "s3_item3": "超出配额的使用将排队至下一个计费周期。",
+        "s4_title": "4. 付款与退款",
+        "s4_content": "付款通过Freemius安全处理。除非取消，订阅将自动续订。首次购买提供14天退款保证。",
+        "s5_title": "5. 服务可用性",
+        "s5_content": "我们努力达到99.9%的正常运行时间，但不保证服务不中断。计划维护将尽可能提前通知。",
+        "s6_title": "6. 联系方式",
+        "s6_content": "如有关于这些服务条款的问题，请联系：support@tuxnoob.com"
     }
 }
