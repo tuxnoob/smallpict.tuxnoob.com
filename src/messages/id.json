@@ -16,7 +16,7 @@
         "speed": "Website WordPress lebih cepat",
         "quality": "Gambar tetap tajam",
         "simple": "Tidak perlu setting rumit",
-        "bandwidth": "Hemat bandwidth dan storage"
+        "secure": "Gambar Anda tetap aman"
     },
     "Features": {
         "title": "Fitur Unggulan",
@@ -26,7 +26,9 @@
         "f2_title": "Gambar Tetap Tajam",
         "f2_desc": "Teknologi AI cerdas memastikan ukuran file sekecil mungkin tanpa mengorbankan kualitas visual foto Anda.",
         "f3_title": "Tanpa Beban Server",
-        "f3_desc": "Proses kompresi dilakukan di cloud kami, jadi server hosting Anda tetap ringan dan cepat. Cocok untuk semua jenis hosting."
+        "f3_desc": "Proses kompresi dilakukan di cloud kami, jadi server hosting Anda tetap ringan dan cepat. Cocok untuk semua jenis hosting.",
+        "f4_title": "Gambar Anda Tetap Aman",
+        "f4_desc": "Kami tidak menyimpan gambar Anda. Setelah dioptimasi, file langsung dikirim kembali ke WordPress Anda — tidak ada salinan di server kami."
     },
     "Pricing": {
         "title": "Harga",
@@ -90,6 +92,52 @@
     },
     "Footer": {
         "rights": "SmallPict (TuxNoob). All rights reserved.",
-        "brandMessage": "SmallPict — solusi ringan untuk website WordPress yang ingin tetap cepat tanpa kompromi kualitas."
+        "brandMessage": "SmallPict — solusi ringan untuk website WordPress yang ingin tetap cepat tanpa kompromi kualitas.",
+        "privacy": "Kebijakan Privasi",
+        "terms": "Syarat Layanan",
+        "docs": "Dokumentasi",
+        "contact": "Kontak"
+    },
+    "Privacy": {
+        "title": "Kebijakan Privasi",
+        "lastUpdated": "Terakhir diperbarui: Februari 2026",
+        "s1_title": "1. Pendahuluan",
+        "s1_content": "SmallPict menghormati privasi Anda dan berkomitmen untuk melindungi data pribadi Anda. Kebijakan privasi ini menjelaskan bagaimana kami mengumpulkan, menggunakan, dan melindungi informasi Anda saat menggunakan layanan optimasi gambar WordPress kami.",
+        "s2_title": "2. Data yang Kami Kumpulkan",
+        "s2_content": "Kami mengumpulkan jenis informasi berikut:",
+        "s2_item1": "Informasi Akun: Alamat email dan URL website saat Anda mengaktifkan plugin.",
+        "s2_item2": "Data Penggunaan: Jumlah gambar yang diproses, ukuran file, dan statistik optimasi.",
+        "s2_item3": "Data Teknis: Versi WordPress, versi PHP, dan versi plugin untuk kompatibilitas.",
+        "s3_title": "3. Pemrosesan & Penyimpanan Gambar",
+        "s3_content": "Kami TIDAK menyimpan gambar Anda. Saat Anda mengunggah gambar melalui layanan kami:",
+        "s3_item1": "Gambar Anda diproses sementara di infrastruktur cloud kami yang aman.",
+        "s3_item2": "Gambar yang sudah dioptimasi langsung dikirim kembali ke situs WordPress Anda.",
+        "s3_item3": "Versi asli dan versi teroptimasi dihapus dari server kami dalam hitungan menit.",
+        "s3_item4": "Kami tidak menyimpan salinan gambar Anda.",
+        "s4_title": "4. Keamanan Data",
+        "s4_content": "Kami menerapkan langkah-langkah keamanan standar industri termasuk enkripsi saat transit (HTTPS/TLS), infrastruktur cloud yang aman, dan audit keamanan rutin untuk melindungi data Anda.",
+        "s5_title": "5. Hak Anda",
+        "s5_content": "Anda berhak mengakses, memperbaiki, atau menghapus data pribadi Anda. Hubungi kami di privacy@tuxnoob.com untuk permintaan terkait data.",
+        "s6_title": "6. Hubungi Kami",
+        "s6_content": "Untuk pertanyaan tentang Kebijakan Privasi ini, silakan hubungi kami di: privacy@tuxnoob.com"
+    },
+    "Terms": {
+        "title": "Syarat Layanan",
+        "lastUpdated": "Terakhir diperbarui: Februari 2026",
+        "s1_title": "1. Penerimaan Syarat",
+        "s1_content": "Dengan menggunakan SmallPict, Anda setuju untuk terikat dengan Syarat Layanan ini. Jika tidak setuju dengan syarat ini, mohon jangan gunakan layanan kami.",
+        "s2_title": "2. Deskripsi Layanan",
+        "s2_content": "SmallPict adalah layanan optimasi gambar berbasis cloud untuk WordPress. Kami menyediakan kompresi otomatis dan konversi format (WebP, AVIF) untuk membantu meningkatkan performa website Anda.",
+        "s3_title": "3. Batas Penggunaan & Penggunaan Wajar",
+        "s3_content": "Setiap paket berlangganan mencakup kuota pemrosesan gambar bulanan:",
+        "s3_item1": "Paket gratis: Kuota bulanan terbatas untuk penggunaan personal/testing.",
+        "s3_item2": "Paket berbayar: Kuota lebih tinggi sesuai tingkat langganan Anda.",
+        "s3_item3": "Penggunaan melebihi kuota akan diantrekan hingga siklus tagihan berikutnya.",
+        "s4_title": "4. Pembayaran & Pengembalian Dana",
+        "s4_content": "Pembayaran diproses dengan aman melalui Freemius. Langganan diperpanjang otomatis kecuali dibatalkan. Kami menawarkan jaminan uang kembali 14 hari untuk pembelian pertama.",
+        "s5_title": "5. Ketersediaan Layanan",
+        "s5_content": "Kami berusaha untuk uptime 99.9% tetapi tidak menjamin layanan tanpa gangguan. Pemeliharaan terjadwal akan diumumkan sebelumnya bila memungkinkan.",
+        "s6_title": "6. Kontak",
+        "s6_content": "Untuk pertanyaan tentang Syarat Layanan ini, hubungi kami di: support@tuxnoob.com"
     }
 }

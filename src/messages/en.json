@@ -16,7 +16,7 @@
         "speed": "Faster WordPress website",
         "quality": "Sharp images",
         "simple": "No complex settings",
-        "bandwidth": "Save bandwidth & storage"
+        "secure": "Your images stay private"
     },
     "Features": {
         "title": "Key Features",
@@ -26,7 +26,9 @@
         "f2_title": "Premium Quality",
         "f2_desc": "Smart AI technology ensures the smallest possible file size without sacrificing visual quality.",
         "f3_title": "Zero Server Load",
-        "f3_desc": "Compression happens in our cloud, so your hosting server stays light and fast. Works with all hosting types."
+        "f3_desc": "Compression happens in our cloud, so your hosting server stays light and fast. Works with all hosting types.",
+        "f4_title": "Your Images Stay Safe",
+        "f4_desc": "We never store your images. After optimization, files go directly back to your WordPress — no copies kept on our servers."
     },
     "Pricing": {
         "title": "Pricing",
@@ -90,6 +92,52 @@
     },
     "Footer": {
         "rights": "SmallPict (TuxNoob). All rights reserved.",
-        "brandMessage": "SmallPict — lightweight solution for WordPress websites that want to stay fast without compromising quality."
+        "brandMessage": "SmallPict — lightweight solution for WordPress websites that want to stay fast without compromising quality.",
+        "privacy": "Privacy Policy",
+        "terms": "Terms of Service",
+        "docs": "Documentation",
+        "contact": "Contact"
+    },
+    "Privacy": {
+        "title": "Privacy Policy",
+        "lastUpdated": "Last updated: February 2026",
+        "s1_title": "1. Introduction",
+        "s1_content": "SmallPict respects your privacy and is committed to protecting your personal data. This privacy policy explains how we collect, use, and safeguard your information when you use our WordPress image optimization service.",
+        "s2_title": "2. Data We Collect",
+        "s2_content": "We collect the following types of information:",
+        "s2_item1": "Account Information: Email address and website URL when you activate the plugin.",
+        "s2_item2": "Usage Data: Number of images processed, file sizes, and optimization statistics.",
+        "s2_item3": "Technical Data: WordPress version, PHP version, and plugin version for compatibility.",
+        "s3_title": "3. Image Processing & Storage",
+        "s3_content": "We do NOT store your images. When you upload an image through our service:",
+        "s3_item1": "Your image is temporarily processed in our secure cloud infrastructure.",
+        "s3_item2": "The optimized image is immediately sent back to your WordPress site.",
+        "s3_item3": "Both the original and optimized versions are deleted from our servers within minutes.",
+        "s3_item4": "We do not keep any copies of your images.",
+        "s4_title": "4. Data Security",
+        "s4_content": "We implement industry-standard security measures including encryption in transit (HTTPS/TLS), secure cloud infrastructure, and regular security audits to protect your data.",
+        "s5_title": "5. Your Rights",
+        "s5_content": "You have the right to access, correct, or delete your personal data. Contact us at privacy@tuxnoob.com for any data-related requests.",
+        "s6_title": "6. Contact Us",
+        "s6_content": "For any questions about this Privacy Policy, please contact us at: privacy@tuxnoob.com"
+    },
+    "Terms": {
+        "title": "Terms of Service",
+        "lastUpdated": "Last updated: February 2026",
+        "s1_title": "1. Acceptance of Terms",
+        "s1_content": "By using SmallPict, you agree to be bound by these Terms of Service. If you do not agree to these terms, please do not use our service.",
+        "s2_title": "2. Description of Service",
+        "s2_content": "SmallPict is a cloud-based image optimization service for WordPress. We provide automatic compression and format conversion (WebP, AVIF) to help improve your website performance.",
+        "s3_title": "3. Usage Limits & Fair Use",
+        "s3_content": "Each subscription plan includes a monthly image processing quota:",
+        "s3_item1": "Free tier: Limited monthly quota for personal/testing use.",
+        "s3_item2": "Paid tiers: Higher quotas based on your subscription level.",
+        "s3_item3": "Usage beyond quota will be queued until the next billing cycle.",
+        "s4_title": "4. Payment & Refunds",
+        "s4_content": "Payments are processed securely through Freemius. Subscriptions auto-renew unless cancelled. We offer a 14-day money-back guarantee for first-time purchases.",
+        "s5_title": "5. Service Availability",
+        "s5_content": "We strive for 99.9% uptime but do not guarantee uninterrupted service. Scheduled maintenance will be announced in advance when possible.",
+        "s6_title": "6. Contact",
+        "s6_content": "For questions about these Terms of Service, contact us at: support@tuxnoob.com"
     }
 }
