@@ -37,7 +37,7 @@ export default function PricingSection() {
             monthlyPrice: '$0',
             annualPrice: '$0',
             description: t('plans.free.description'),
-            features: ['20 MB', '2 MB Max File', 'WebP', 'No Scaling (Queue)', 'Community Support'], // Retaining some technical details as they are standard units
+            features: ['~10 photos/month', 'Small-medium images', 'Modern WebP format', 'Processed in queue', 'Community help'],
             quota: '20 MB',
             buttonText: t('plans.free.button'),
             licenseConfig: 'single'
@@ -49,7 +49,7 @@ export default function PricingSection() {
             monthlyPrice: '$5',
             annualPrice: '$50',
             description: t('plans.starter.description'),
-            features: ['200 MB', '10 MB Max File', 'WebP', 'No Scaling (Instant)', 'Email Support'],
+            features: ['~100 photos/month', 'High-res images', 'Modern WebP format', 'Fast processing', 'Email support'],
             quota: '200 MB',
             buttonText: t('plans.starter.button'),
             licenseConfig: 'single'
@@ -61,7 +61,7 @@ export default function PricingSection() {
             monthlyPrice: '$15',
             annualPrice: '$150',
             description: t('plans.pro.description'),
-            features: ['600 MB', '32 MB Max File', 'AVIF + WebP', 'Standard Scaling', 'Priority Support'],
+            features: ['~300 photos/month', 'Pro camera shots', 'Ultra-light AVIF/WebP', 'Auto-resize included', 'Priority support'],
             quota: '600 MB',
             highlight: true,
             buttonText: t('plans.pro.button'),
@@ -74,7 +74,7 @@ export default function PricingSection() {
             monthlyPrice: '$39',
             annualPrice: '$450',
             description: t('plans.business.description'),
-            features: ['1.5 GB', '64 MB Max File', 'AVIF + WebP', 'Aggressive Scaling', 'Premium Support'],
+            features: ['~750 photos/month', 'Studio-quality files', 'Ultra-light AVIF/WebP', 'Maximum compression', 'Premium 24/7 support'],
             quota: '1.5 GB',
             buttonText: t('plans.business.button'),
             licenseConfig: 'select'
@@ -86,7 +86,7 @@ export default function PricingSection() {
             monthlyPrice: '$99',
             annualPrice: '$1100',
             description: t('plans.agency.description'),
-            features: ['4 GB', '128 MB Max File', 'AVIF + WebP', 'Aggressive Scaling', 'Dedicated Support', '10 Site Licenses'],
+            features: ['~2,000 photos/month', 'Huge files supported', 'Ultra-light AVIF/WebP', 'Maximum compression', 'Dedicated team', 'For 10 websites'],
             quota: '4 GB',
             buttonText: t('plans.agency.button'),
             licenseConfig: 'fixed_10'
@@ -98,7 +98,7 @@ export default function PricingSection() {
             monthlyPrice: 'Custom',
             annualPrice: 'Custom',
             description: t('plans.enterprise.description'),
-            features: ['Custom Quota', 'Unlimited File Size', 'Aggressive Scaling', 'Dedicated Infra', 'Custom SLA'],
+            features: ['Unlimited quota', 'No file size limits', 'Private cloud server', 'Guaranteed uptime', 'Custom agreement'],
             quota: 'Custom',
             buttonText: t('plans.enterprise.button'),
             licenseConfig: 'custom'
