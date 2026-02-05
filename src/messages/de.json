@@ -16,7 +16,8 @@
         "speed": "Schnellere WordPress-Website",
         "quality": "Scharfe Bilder",
         "simple": "Keine komplexen Einstellungen",
-        "bandwidth": "Bandbreite sparen"
+        "bandwidth": "Bandbreite sparen",
+        "secure": "Ihre Bilder bleiben privat"
     },
     "Features": {
         "title": "Hauptfunktionen",
@@ -26,7 +27,9 @@
         "f2_title": "Premium Qualität",
         "f2_desc": "Intelligente KI-Technologie sorgt für kleinstmögliche Dateigröße ohne Verlust der visuellen Qualität.",
         "f3_title": "Null Serverlast",
-        "f3_desc": "Die Komprimierung erfolgt in unserer Cloud, so bleibt Ihr Hosting leicht und schnell. Funktioniert mit allen Hostern."
+        "f3_desc": "Die Komprimierung erfolgt in unserer Cloud, so bleibt Ihr Hosting leicht und schnell. Funktioniert mit allen Hostern.",
+        "f4_title": "Ihre Bilder sind sicher",
+        "f4_desc": "Wir speichern Ihre Bilder nie. Nach der Optimierung gehen die Dateien direkt an Ihr WordPress zurück — keine Kopien auf unseren Servern."
     },
     "Pricing": {
         "title": "Preise",
