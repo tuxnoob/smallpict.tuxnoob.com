@@ -17,10 +17,10 @@ export default function Navbar() {
                     </Link>
                 </div>
                 <div className="flex flex-1 justify-end gap-x-6 items-center">
-                    <Link href="/docs/v1.0.0/intro" className="text-sm font-semibold leading-6 text-gray-900 hover:text-blue-600 transition-colors">
+                    <Link href="/docs/v1/intro" className="text-sm font-semibold leading-6 text-gray-900 hover:text-blue-600 transition-colors">
                         {t('docs')}
                     </Link>
-                    <Link href="/docs/v1.0.0/installation" className="rounded-full bg-blue-600 px-4 py-2 text-sm font-semibold text-white shadow-sm hover:bg-blue-500 focus-visible:outline focus-visible:outline-2 focus-visible:outline-offset-2 focus-visible:outline-blue-600 transition-all">
+                    <Link href="/docs/v1/installation" className="rounded-full bg-blue-600 px-4 py-2 text-sm font-semibold text-white shadow-sm hover:bg-blue-500 focus-visible:outline focus-visible:outline-2 focus-visible:outline-offset-2 focus-visible:outline-blue-600 transition-all">
                         {t('getStarted')}
                     </Link>
                 </div>

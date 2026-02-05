@@ -28,7 +28,7 @@ export default function Hero() {
                         </p>
                         <div className="mt-10 flex items-center justify-center lg:justify-start gap-x-6">
                             <Link
-                                href="/docs/v1.0.0/installation"
+                                href="/docs/v1/installation"
                                 className="rounded-full bg-blue-600 px-8 py-3.5 text-lg font-semibold text-white shadow-sm hover:bg-blue-500 focus-visible:outline focus-visible:outline-2 focus-visible:outline-offset-2 focus-visible:outline-blue-600 transition-all hover:-translate-y-1 hover:shadow-lg"
                             >
                                 {t('ctaPrimary')}
