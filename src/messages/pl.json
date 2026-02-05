@@ -16,7 +16,8 @@
         "speed": "Szybsza strona WordPress",
         "quality": "Ostre zdjęcia",
         "simple": "Bez trudnych ustawień",
-        "bandwidth": "Oszczędność transferu"
+        "bandwidth": "Oszczędność transferu",
+        "secure": "Twoje obrazy pozostają prywatne"
     },
     "Features": {
         "title": "Kluczowe Funkcje",
@@ -26,7 +27,9 @@
         "f2_title": "Jakość Premium",
         "f2_desc": "Inteligentna technologia AI zapewnia najmniejszy możliwy rozmiar pliku bez utraty jakości wizualnej.",
         "f3_title": "Zero Obciążenia Serwera",
-        "f3_desc": "Kompresja odbywa się w naszej chmurze, więc Twój hosting pozostaje lekki i szybki. Działa z każdym hostingiem."
+        "f3_desc": "Kompresja odbywa się w naszej chmurze, więc Twój hosting pozostaje lekki i szybki. Działa z każdym hostingiem.",
+        "f4_title": "Twoje obrazy są bezpieczne",
+        "f4_desc": "Nigdy nie przechowujemy Twoich obrazów. Po optymalizacji pliki wracają do WordPress — bez kopii na naszych serwerach."
     },
     "Pricing": {
         "title": "Cennik",

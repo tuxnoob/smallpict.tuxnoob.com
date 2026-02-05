@@ -16,7 +16,8 @@
         "speed": "Sitio WordPress más rápido",
         "quality": "Imágenes nítidas",
         "simple": "Sin ajustes complejos",
-        "bandwidth": "Ahorra ancho de banda"
+        "bandwidth": "Ahorra ancho de banda",
+        "secure": "Tus imágenes permanecen privadas"
     },
     "Features": {
         "title": "Características Clave",
@@ -26,7 +27,9 @@
         "f2_title": "Calidad Premium",
         "f2_desc": "La tecnología de IA inteligente garantiza el menor tamaño de archivo posible sin sacrificar la calidad visual.",
         "f3_title": "Carga Cero en Servidor",
-        "f3_desc": "La compresión ocurre en nuestra nube, por lo que tu hosting permanece ligero y rápido. Funciona con todos los hostings."
+        "f3_desc": "La compresión ocurre en nuestra nube, por lo que tu hosting permanece ligero y rápido. Funciona con todos los hostings.",
+        "f4_title": "Tus imágenes están seguras",
+        "f4_desc": "Nunca almacenamos tus imágenes. Después de la optimización, los archivos vuelven a tu WordPress — sin copias en nuestros servidores."
     },
     "Pricing": {
         "title": "Precios",

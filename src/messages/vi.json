@@ -16,7 +16,8 @@
         "speed": "Website WordPress nhanh hơn",
         "quality": "Ảnh sắc nét",
         "simple": "Không cài đặt phức tạp",
-        "bandwidth": "Tiết kiệm băng thông"
+        "bandwidth": "Tiết kiệm băng thông",
+        "secure": "Hình ảnh của bạn được bảo mật"
     },
     "Features": {
         "title": "Tính năng chính",
@@ -26,7 +27,9 @@
         "f2_title": "Chất lượng cao cấp",
         "f2_desc": "Công nghệ AI thông minh đảm bảo kích thước file nhỏ nhất có thể mà không làm giảm chất lượng hình ảnh.",
         "f3_title": "Không tải máy chủ",
-        "f3_desc": "Việc nén diễn ra trên đám mây của chúng tôi, vì vậy hosting của bạn vẫn nhẹ và nhanh. Hoạt động với mọi hosting."
+        "f3_desc": "Việc nén diễn ra trên đám mây của chúng tôi, vì vậy hosting của bạn vẫn nhẹ và nhanh. Hoạt động với mọi hosting.",
+        "f4_title": "Hình ảnh của bạn được an toàn",
+        "f4_desc": "Chúng tôi không bao giờ lưu trữ hình ảnh của bạn. Sau khi tối ưu, tệp trở về WordPress của bạn — không có bản sao trên máy chủ của chúng tôi."
     },
     "Pricing": {
         "title": "Bảng giá",

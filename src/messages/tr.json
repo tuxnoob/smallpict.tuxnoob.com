@@ -16,7 +16,8 @@
         "speed": "Daha hızlı site",
         "quality": "Net görseller",
         "simple": "Karmaşık ayarlar yok",
-        "bandwidth": "Bant genişliği tasarrufu"
+        "bandwidth": "Bant genişliği tasarrufu",
+        "secure": "Görselleriniz gizli kalır"
     },
     "Features": {
         "title": "Temel Özellikler",
@@ -26,7 +27,9 @@
         "f2_title": "Premium Kalite",
         "f2_desc": "Akıllı AI teknolojisi, görsel kaliteden ödün vermeden mümkün olan en küçük dosya boyutunu garanti eder.",
         "f3_title": "Sıfır Sunucu Yükü",
-        "f3_desc": "Sıkıştırma bulutumuzda gerçekleşir, bu nedenle barındırma sunucunuz hafif ve hızlı kalır. Tüm hostinglerle çalışır."
+        "f3_desc": "Sıkıştırma bulutumuzda gerçekleşir, bu nedenle barındırma sunucunuz hafif ve hızlı kalır. Tüm hostinglerle çalışır.",
+        "f4_title": "Görselleriniz güvende",
+        "f4_desc": "Görsellerinizi asla saklamıyoruz. Optimizasyondan sonra dosyalar WordPress'e geri döner — sunucularımızda kopya kalmaz."
     },
     "Pricing": {
         "title": "Fiyatlandırma",

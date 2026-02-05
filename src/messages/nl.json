@@ -16,7 +16,8 @@
         "speed": "Snellere WordPress-website",
         "quality": "Scherpe afbeeldingen",
         "simple": "Geen complexe instellingen",
-        "bandwidth": "Bespaar bandbreedte"
+        "bandwidth": "Bespaar bandbreedte",
+        "secure": "Je afbeeldingen blijven privé"
     },
     "Features": {
         "title": "Belangrijkste Kenmerken",
@@ -26,7 +27,9 @@
         "f2_title": "Premium Kwaliteit",
         "f2_desc": "Slimme AI-technologie zorgt voor de kleinst mogelijke bestandsgrootte zonder visuele kwaliteit op te offeren.",
         "f3_title": "Geen Serverbelasting",
-        "f3_desc": "Compressie gebeurt in onze cloud, dus uw hosting blijft licht en snel. Werkt met alle hostings."
+        "f3_desc": "Compressie gebeurt in onze cloud, dus uw hosting blijft licht en snel. Werkt met alle hostings.",
+        "f4_title": "Je afbeeldingen zijn veilig",
+        "f4_desc": "We slaan je afbeeldingen nooit op. Na optimalisatie gaan bestanden direct terug naar je WordPress — geen kopieën op onze servers."
     },
     "Pricing": {
         "title": "Prijzen",

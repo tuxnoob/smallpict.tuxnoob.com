@@ -16,7 +16,8 @@
         "speed": "Site WordPress mais rápido",
         "quality": "Imagens nítidas",
         "simple": "Sem ajustes complexos",
-        "bandwidth": "Economize largura de banda"
+        "bandwidth": "Economize largura de banda",
+        "secure": "Suas imagens permanecem privadas"
     },
     "Features": {
         "title": "Recursos Principais",
@@ -26,7 +27,9 @@
         "f2_title": "Qualidade Premium",
         "f2_desc": "A tecnologia de IA inteligente garante o menor tamanho de arquivo possível sem sacrificar a qualidade visual.",
         "f3_title": "Zero Carga no Servidor",
-        "f3_desc": "A compressão acontece em nossa nuvem, então sua hospedagem permanece leve e rápida. Funciona com todas as hospedagens."
+        "f3_desc": "A compressão acontece em nossa nuvem, então sua hospedagem permanece leve e rápida. Funciona com todas as hospedagens.",
+        "f4_title": "Suas imagens estão seguras",
+        "f4_desc": "Nunca armazenamos suas imagens. Após a otimização, os arquivos voltam ao seu WordPress — sem cópias em nossos servidores."
     },
     "Pricing": {
         "title": "Preços",
