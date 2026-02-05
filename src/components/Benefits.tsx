@@ -10,7 +10,7 @@ export default function Benefits() {
         t("speed"),
         t("quality"),
         t("simple"),
-        t("bandwidth"),
+        t("secure"),
     ];
 
     return (

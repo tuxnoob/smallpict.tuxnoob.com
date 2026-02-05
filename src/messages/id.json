@@ -16,7 +16,7 @@
         "speed": "Website WordPress lebih cepat",
         "quality": "Gambar tetap tajam",
         "simple": "Tidak perlu setting rumit",
-        "bandwidth": "Hemat bandwidth dan storage"
+        "secure": "Gambar Anda tetap aman"
     },
     "Features": {
         "title": "Fitur Unggulan",
@@ -26,7 +26,9 @@
         "f2_title": "Gambar Tetap Tajam",
         "f2_desc": "Teknologi AI cerdas memastikan ukuran file sekecil mungkin tanpa mengorbankan kualitas visual foto Anda.",
         "f3_title": "Tanpa Beban Server",
-        "f3_desc": "Proses kompresi dilakukan di cloud kami, jadi server hosting Anda tetap ringan dan cepat. Cocok untuk semua jenis hosting."
+        "f3_desc": "Proses kompresi dilakukan di cloud kami, jadi server hosting Anda tetap ringan dan cepat. Cocok untuk semua jenis hosting.",
+        "f4_title": "Gambar Anda Tetap Aman",
+        "f4_desc": "Kami tidak menyimpan gambar Anda. Setelah dioptimasi, file langsung dikirim kembali ke WordPress Anda — tidak ada salinan di server kami."
     },
     "Pricing": {
         "title": "Harga",

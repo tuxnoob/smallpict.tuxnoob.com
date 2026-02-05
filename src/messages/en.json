@@ -16,7 +16,7 @@
         "speed": "Faster WordPress website",
         "quality": "Sharp images",
         "simple": "No complex settings",
-        "bandwidth": "Save bandwidth & storage"
+        "secure": "Your images stay private"
     },
     "Features": {
         "title": "Key Features",
@@ -26,7 +26,9 @@
         "f2_title": "Premium Quality",
         "f2_desc": "Smart AI technology ensures the smallest possible file size without sacrificing visual quality.",
         "f3_title": "Zero Server Load",
-        "f3_desc": "Compression happens in our cloud, so your hosting server stays light and fast. Works with all hosting types."
+        "f3_desc": "Compression happens in our cloud, so your hosting server stays light and fast. Works with all hosting types.",
+        "f4_title": "Your Images Stay Safe",
+        "f4_desc": "We never store your images. After optimization, files go directly back to your WordPress — no copies kept on our servers."
     },
     "Pricing": {
         "title": "Pricing",
