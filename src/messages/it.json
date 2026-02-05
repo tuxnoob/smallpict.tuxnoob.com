@@ -90,6 +90,52 @@
     },
     "Footer": {
         "rights": "SmallPict (TuxNoob). Tutti i diritti riservati.",
-        "brandMessage": "SmallPict — soluzione leggera per siti web che vogliono rimanere veloci senza compromettere la qualità."
+        "brandMessage": "SmallPict — soluzione leggera per siti web che vogliono rimanere veloci senza compromettere la qualità.",
+        "privacy": "Privacy",
+        "terms": "Termini",
+        "docs": "Documentazione",
+        "contact": "Contatto"
+    },
+    "Privacy": {
+        "title": "Informativa sulla Privacy",
+        "lastUpdated": "Last updated: February 2026",
+        "s1_title": "1. Introduction",
+        "s1_content": "SmallPict respects your privacy and is committed to protecting your personal data.",
+        "s2_title": "2. Data We Collect",
+        "s2_content": "We collect the following types of information:",
+        "s2_item1": "Account Information: Email address and website URL when you activate the plugin.",
+        "s2_item2": "Usage Data: Number of images processed, file sizes, and optimization statistics.",
+        "s2_item3": "Technical Data: WordPress version, PHP version, and plugin version.",
+        "s3_title": "3. Image Processing & Storage",
+        "s3_content": "We do NOT store your images. When you upload an image:",
+        "s3_item1": "Your image is temporarily processed in our secure cloud.",
+        "s3_item2": "The optimized image is immediately sent back to your WordPress.",
+        "s3_item3": "Both versions are deleted from our servers within minutes.",
+        "s3_item4": "We do not keep any copies of your images.",
+        "s4_title": "4. Data Security",
+        "s4_content": "We implement industry-standard security measures including HTTPS/TLS encryption.",
+        "s5_title": "5. Your Rights",
+        "s5_content": "You have the right to access, correct, or delete your personal data. Contact: privacy@tuxnoob.com",
+        "s6_title": "6. Contact Us",
+        "s6_content": "For questions about this Privacy Policy: privacy@tuxnoob.com"
+    },
+    "Terms": {
+        "title": "Termini di Servizio",
+        "lastUpdated": "Last updated: February 2026",
+        "s1_title": "1. Acceptance of Terms",
+        "s1_content": "By using SmallPict, you agree to be bound by these Terms of Service.",
+        "s2_title": "2. Description of Service",
+        "s2_content": "SmallPict is a cloud-based image optimization service for WordPress.",
+        "s3_title": "3. Usage Limits & Fair Use",
+        "s3_content": "Each subscription plan includes a monthly image processing quota:",
+        "s3_item1": "Free tier: Limited monthly quota for personal/testing use.",
+        "s3_item2": "Paid tiers: Higher quotas based on your subscription level.",
+        "s3_item3": "Usage beyond quota will be queued until the next billing cycle.",
+        "s4_title": "4. Payment & Refunds",
+        "s4_content": "Payments are processed securely through Freemius. 14-day money-back guarantee.",
+        "s5_title": "5. Service Availability",
+        "s5_content": "We strive for 99.9% uptime but do not guarantee uninterrupted service.",
+        "s6_title": "6. Contact",
+        "s6_content": "For questions about these Terms: support@tuxnoob.com"
     }
 }
