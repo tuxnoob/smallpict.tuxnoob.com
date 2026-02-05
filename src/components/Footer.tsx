@@ -12,16 +12,16 @@ export default function Footer() {
                 {/* Links Section */}
                 <div className="flex flex-wrap justify-center gap-x-8 gap-y-4 mb-8">
                     <Link href="/docs/v1/intro" className="text-sm text-gray-600 hover:text-blue-600 transition-colors">
-                        Documentation
+                        {t('docs')}
                     </Link>
                     <Link href="/privacy" className="text-sm text-gray-600 hover:text-blue-600 transition-colors">
-                        Privacy Policy
+                        {t('privacy')}
                     </Link>
                     <Link href="/terms" className="text-sm text-gray-600 hover:text-blue-600 transition-colors">
-                        Terms of Service
+                        {t('terms')}
                     </Link>
                     <a href="mailto:support@tuxnoob.com" className="text-sm text-gray-600 hover:text-blue-600 transition-colors">
-                        Contact
+                        {t('contact')}
                     </a>
                 </div>
 
