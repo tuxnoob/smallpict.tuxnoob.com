@@ -1,10 +1,11 @@
 "use client";
 
 import Link from 'next/link';
-import { useTranslations } from 'next-intl';
+import { useTranslations, useLocale } from 'next-intl';
 
 export default function Footer() {
     const t = useTranslations('Footer');
+    const locale = useLocale();
 
     return (
         <footer className="bg-white border-t border-gray-100">
@@ -14,10 +15,10 @@ export default function Footer() {
                     <Link href="/docs/v1/intro" className="text-sm text-gray-600 hover:text-blue-600 transition-colors">
                         {t('docs')}
                     </Link>
-                    <Link href="/privacy" className="text-sm text-gray-600 hover:text-blue-600 transition-colors">
+                    <Link href={`/${locale}/privacy`} className="text-sm text-gray-600 hover:text-blue-600 transition-colors">
                         {t('privacy')}
                     </Link>
-                    <Link href="/terms" className="text-sm text-gray-600 hover:text-blue-600 transition-colors">
+                    <Link href={`/${locale}/terms`} className="text-sm text-gray-600 hover:text-blue-600 transition-colors">
                         {t('terms')}
                     </Link>
                     <a href="mailto:support@tuxnoob.com" className="text-sm text-gray-600 hover:text-blue-600 transition-colors">
