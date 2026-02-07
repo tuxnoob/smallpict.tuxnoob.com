@@ -270,11 +270,11 @@ export default function PricingSection() {
                     ))}
                 </div>
                 
-                <div class="mx-auto max-w-4xl text-center mt-24">
+                <div className="mx-auto max-w-4xl text-center mt-24">
                     <h2 className="text-base font-semibold leading-7 text-blue-600">Kebutuhan lebih besar</h2>
-                    <p class="mt-2 text-4xl font-bold tracking-tight text-gray-900 sm:text-5xl">Agensi, Bisnis dan Enterprise</p>
-                    <p class="mt-6 text-lg leading-8 text-gray-600">Butuh skala lebih besar dan penawaran menarik dari kami?</p>
-                    <a href="#" aria-describedby="enterprise" class="mt-8 inline-block rounded-md py-3 px-3 text-center text-sm font-semibold leading-6 focus-visible:outline focus-visible:outline-2 focus-visible:outline-offset-2 bg-gray-100 text-gray-400 cursor-not-allowed">Hubungi Kami
+                    <p className="mt-2 text-4xl font-bold tracking-tight text-gray-900 sm:text-5xl">Agensi, Bisnis dan Enterprise</p>
+                    <p className="mt-6 text-lg leading-8 text-gray-600">Butuh skala lebih besar dan penawaran menarik dari kami?</p>
+                    <a href="#" aria-describedby="enterprise" className="mt-8 inline-block rounded-md py-3 px-3 text-center text-sm font-semibold leading-6 focus-visible:outline focus-visible:outline-2 focus-visible:outline-offset-2 bg-gray-100 text-gray-400 cursor-not-allowed">Hubungi Kami
                     </a>
                 </div>
             </div>
