@@ -1,7 +1,7 @@
 "use client";
 
 import { motion } from "framer-motion";
-import { Wand2, Zap, Server, ShieldCheck } from "lucide-react";
+import { Wand2, Zap, Server, Cog } from "lucide-react";
 import { useTranslations } from "next-intl";
 
 export default function Features() {
@@ -11,12 +11,12 @@ export default function Features() {
         {
             name: t("f1_title"),
             description: t("f1_desc"),
-            icon: Wand2,
+            icon: Zap,
         },
         {
             name: t("f2_title"),
             description: t("f2_desc"),
-            icon: Zap,
+            icon: Wand2,
         },
         {
             name: t("f3_title"),
@@ -26,7 +26,7 @@ export default function Features() {
         {
             name: t("f4_title"),
             description: t("f4_desc"),
-            icon: ShieldCheck,
+            icon: Cog,
         },
     ];
 
@@ -39,7 +39,8 @@ export default function Features() {
                         {t("subtitle")}
                     </p>
                 </div>
-                <div className="mx-auto max-w-7xl grid grid-cols-1 md:grid-cols-2 lg:grid-cols-4 gap-8">
+
+                <div className="mx-auto max-w-7xl grid grid-cols-1 md:grid-cols-4 gap-8">
                     {features.map((feature, index) => (
                         <motion.div
                             key={features.indexOf(feature)} // Use index/content as key since names might change on lang switch
