@@ -5,7 +5,7 @@
     },
     "Hero": {
         "headline": "Website WordPress lambat karena <blue>gambar berat?</blue>",
-        "subheadline": "SmallPict otomatis memperkecil ukuran gambar agar website WordPress kamu lebih cepat. Tanpa ribet setting apa pun.",
+        "subheadline": "Kecilkan ukuran gambar hingga 80% otomatis tanpa mengurangi kualitas visual. Website ngebut, pengunjung senang.",
         "ctaPrimary": "Coba Gratis Sekarang",
         "ctaSecondary": "Lihat Demo",
         "before": "Sebelum",
@@ -21,12 +21,18 @@
     "Features": {
         "title": "Fitur Unggulan",
         "subtitle": "Semua yang Anda butuhkan untuk website WordPress super cepat",
-        "f1_title": "Tidak Perlu Setting Rumit",
-        "f1_desc": "Install plugin, aktifkan, dan selesai. Tidak perlu konfigurasi server yang membingungkan atau API key yang ribet.",
+
+        "f1_title": "Webiste lebih cepat",
+        "f1_desc": "Perkecil semua ukuran asset visual hingga 80%. Website Anda jadi lebih cepat",
+
         "f2_title": "Gambar Tetap Tajam",
         "f2_desc": "Teknologi AI cerdas memastikan ukuran file sekecil mungkin tanpa mengorbankan kualitas visual foto Anda.",
+
         "f3_title": "Tanpa Beban Server",
-        "f3_desc": "Proses kompresi dilakukan di cloud kami, jadi server hosting Anda tetap ringan dan cepat. Cocok untuk semua jenis hosting."
+        "f3_desc": "Proses kompresi dilakukan di cloud kami, jadi server hosting Anda tetap ringan dan cepat. Cocok untuk semua jenis hosting.",
+
+        "f4_title": "Tanpa Setting Rumit",
+        "f4_desc": "Install plugin, aktifkan, dan selesai. Tidak perlu konfigurasi server yang membingungkan atau API key yang ribet."
     },
     "Pricing": {
         "title": "Harga",
@@ -35,22 +41,22 @@
         "monthly": "Bulanan",
         "annual": "Tahunan",
         "annualDiscount": "(-20%)",
-        "monthSuffix": "/bln",
-        "yearSuffix": "/thn",
+        "monthSuffix": "/ bulan",
+        "yearSuffix": "/ tahun",
         "plans": {
             "free": {
                 "title": "Free",
-                "description": "Untuk hobi & testing.",
+                "description": "Mulai optimasi website Anda tanpa biaya sepeserpun",
                 "button": "Coba Gratis"
             },
             "starter": {
                 "title": "Starter",
-                "description": "Untuk blogger / personal site",
+                "description": "Untuk blogger & personal site yang aktif update konten",
                 "button": "Pilih Starter"
             },
             "pro": {
                 "title": "Pro",
-                "description": "Untuk bisnis & profesional",
+                "description": "Performa maksimal untuk bisnis & profesional",
                 "button": "Pilih Pro",
                 "popular": "Paling Laris"
             },
