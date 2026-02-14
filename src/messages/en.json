@@ -43,18 +43,39 @@
             "free": {
                 "title": "Free",
                 "description": "Start optimizing your site without spending a dime.",
-                "button": "Try For Free"
+                "button": "Try For Free",
+                "features": {
+                    "f1": "Auto-Convert to WebP (Google's favorite format)",
+                    "f2": "20 MB Monthly Quota (~10-15 articles)",
+                    "f3": "Max File Size 2 MB",
+                    "f4": "Standard Queue Priority",
+                    "f5": "Community & Docs Support"
+                }
             },
             "starter": {
                 "title": "Starter",
                 "description": "Perfect for active bloggers & growing personal sites.",
-                "button": "Choose Starter"
+                "button": "Choose Starter",
+                "features": {
+                    "f1": "Auto-Convert to WebP (Better SEO)",
+                    "f2": "200 MB Monthly Quota (~100-150 photos)",
+                    "f3": "Max File Size 10 MB",
+                    "f4": "Regular Queue Priority",
+                    "f5": "Direct Email Support"
+                }
             },
             "pro": {
                 "title": "Pro",
                 "description": "Ideal for professionals and small businesses.",
                 "button": "Choose Pro",
-                "popular": "Most Popular"
+                "popular": "Most Popular",
+                "features": {
+                    "f1": "Ultimate Format: AVIF + WebP (30% smaller than WebP)",
+                    "f2": "600 MB Monthly Quota (Great for catalogs)",
+                    "f3": "Max File Size 32 MB (HD/Banner support)",
+                    "f4": "Premium Queue Priority",
+                    "f5": "Priority VIP Support"
+                }
             },
             "business": {
                 "title": "Business",
@@ -71,6 +92,12 @@
                 "description": "For large scale",
                 "button": "Contact Us"
             }
+        },
+        "enterprise_cta": {
+            "eyebrow": "Need larger scale?",
+            "title": "Agency, Business & Enterprise",
+            "description": "Need a custom plan or higher volume? Let's talk.",
+            "button": "Contact Us"
         }
     },
     "HowItWorks": {
