@@ -37,13 +37,13 @@ export default function PricingSection() {
             monthlyPrice: '$0',
             annualPrice: '$0',
             description: t('plans.free.description'),
-            features: 
-                [
-                    'Auto-Convert ke WebP (Format Next-Gen Google favorit SEO)',
-                    '20 MB Kuota Reset Tiap Bulan (Cukup untuk 10-15 artikel baru)',
-                    'Max Ukuran File 2 MB (Cover kebutuhan standar blogging)',
-                    'Standard Queue Priority (Kompresi masuk antrian reguler)',
-                    'Community & Docs Support (Akses panduan mandiri)'], // Retaining some technical details as they are standard units
+            features: [
+                t('plans.free.features.f1'),
+                t('plans.free.features.f2'),
+                t('plans.free.features.f3'),
+                t('plans.free.features.f4'),
+                t('plans.free.features.f5'),
+            ],
             quota: '20 MB',
             buttonText: t('plans.free.button'),
             licenseConfig: 'single'
@@ -55,13 +55,13 @@ export default function PricingSection() {
             monthlyPrice: '$5',
             annualPrice: '$50',
             description: t('plans.starter.description'),
-            features:
-                [
-                    'Auto-Convert ke WebP (Format Next-Gen Google favorit SEO)',
-                    '200 MB Kuota Bulanan (Estimasi 100-150 foto artikel resolusi tinggi)',
-                    'Max Ukuran File 10 MB',
-                    'Regular Queue Priority (Antrian Regular kompresi)',
-                    'Direct Email Support (Bantuan teknis langsung dari developer)'],
+            features: [
+                t('plans.starter.features.f1'),
+                t('plans.starter.features.f2'),
+                t('plans.starter.features.f3'),
+                t('plans.starter.features.f4'),
+                t('plans.starter.features.f5'),
+            ],
             quota: '200 MB',
             buttonText: t('plans.starter.button'),
             licenseConfig: 'single'
@@ -73,42 +73,18 @@ export default function PricingSection() {
             monthlyPrice: '$15',
             annualPrice: '$150',
             description: t('plans.pro.description'),
-            features:
-                [
-                    'Ultimate Format: AVIF + WebP (AVIF lebih kecil 30% dari WebP. Speed booster sejati!)',
-                    '600 MB Kuota Bulanan (Kapasitas besar untuk ribuan produk/katalog)',
-                    'Max Ukuran File 32 MB (Support file raksasa/banner HD tanpa kendala)',
-                    'Premium Queue Priority (Antrian Premium kompresi)',
-                    'Priority VIP Support (Tiket bantuan Anda diprioritaskan paling atas)'],
+            features: [
+                t('plans.pro.features.f1'),
+                t('plans.pro.features.f2'),
+                t('plans.pro.features.f3'),
+                t('plans.pro.features.f4'),
+                t('plans.pro.features.f5'),
+            ],
             quota: '600 MB',
             highlight: true,
             buttonText: t('plans.pro.button'),
             licenseConfig: 'single'
         },
-        // {
-        //     id: 'business',
-        //     plan_id: '38952',
-        //     title: t('plans.business.title'),
-        //     monthlyPrice: '$39',
-        //     annualPrice: '$450',
-        //     description: t('plans.business.description'),
-        //     features: ['1.5 GB', '64 MB Max File', 'AVIF + WebP', 'Aggressive Scaling', 'Premium Support'],
-        //     quota: '1.5 GB',
-        //     buttonText: t('plans.business.button'),
-        //     licenseConfig: 'select'
-        // },
-        // {
-        //     id: 'agency',
-        //     plan_id: '38953',
-        //     title: t('plans.agency.title'),
-        //     monthlyPrice: '$99',
-        //     annualPrice: '$1100',
-        //     description: t('plans.agency.description'),
-        //     features: ['4 GB', '128 MB Max File', 'AVIF + WebP', 'Aggressive Scaling', 'Dedicated Support', '10 Site Licenses'],
-        //     quota: '4 GB',
-        //     buttonText: t('plans.agency.button'),
-        //     licenseConfig: 'fixed_10'
-        // },
         // {
         //     id: 'enterprise',
         //     plan_id: 'custom',
@@ -269,12 +245,12 @@ export default function PricingSection() {
                         </div>
                     ))}
                 </div>
-                
+
                 <div className="mx-auto max-w-4xl text-center mt-24">
-                    <h2 className="text-base font-semibold leading-7 text-blue-600">Kebutuhan lebih besar</h2>
-                    <p className="mt-2 text-4xl font-bold tracking-tight text-gray-900 sm:text-5xl">Agensi, Bisnis dan Enterprise</p>
-                    <p className="mt-6 text-lg leading-8 text-gray-600">Butuh skala lebih besar dan penawaran menarik dari kami?</p>
-                    <a href="#" aria-describedby="enterprise" className="mt-8 inline-block rounded-md py-3 px-3 text-center text-sm font-semibold leading-6 focus-visible:outline focus-visible:outline-2 focus-visible:outline-offset-2 bg-gray-100 text-gray-400 cursor-not-allowed">Hubungi Kami
+                    <h2 className="text-base font-semibold leading-7 text-blue-600">{t("enterprise_cta.eyebrow")}</h2>
+                    <p className="mt-2 text-4xl font-bold tracking-tight text-gray-900 sm:text-5xl">{t("enterprise_cta.title")}</p>
+                    <p className="mt-6 text-lg leading-8 text-gray-600">{t("enterprise_cta.description")}</p>
+                    <a href="#" aria-describedby="enterprise" className="mt-8 inline-block rounded-md py-3 px-3 text-center text-sm font-semibold leading-6 focus-visible:outline focus-visible:outline-2 focus-visible:outline-offset-2 bg-gray-100 text-gray-400 cursor-not-allowed">{t("enterprise_cta.button")}
                     </a>
                 </div>
             </div>

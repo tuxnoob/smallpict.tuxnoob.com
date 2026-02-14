@@ -21,16 +21,12 @@
     "Features": {
         "title": "Fitur Unggulan",
         "subtitle": "Semua yang Anda butuhkan untuk website WordPress super cepat",
-
-        "f1_title": "Webiste lebih cepat",
+        "f1_title": "Website lebih cepat",
         "f1_desc": "Perkecil semua ukuran asset visual hingga 80%. Website Anda jadi lebih cepat",
-
         "f2_title": "Gambar Tetap Tajam",
         "f2_desc": "Teknologi AI cerdas memastikan ukuran file sekecil mungkin tanpa mengorbankan kualitas visual foto Anda.",
-
         "f3_title": "Tanpa Beban Server",
         "f3_desc": "Proses kompresi dilakukan di cloud kami, jadi server hosting Anda tetap ringan dan cepat. Cocok untuk semua jenis hosting.",
-
         "f4_title": "Tanpa Setting Rumit",
         "f4_desc": "Install plugin, aktifkan, dan selesai. Tidak perlu konfigurasi server yang membingungkan atau API key yang ribet."
     },
@@ -47,18 +43,39 @@
             "free": {
                 "title": "Free",
                 "description": "Mulai optimasi website Anda tanpa biaya sepeserpun",
-                "button": "Coba Gratis"
+                "button": "Coba Gratis",
+                "features": {
+                    "f1": "Auto-Convert ke WebP (Format Next-Gen Google favorit SEO)",
+                    "f2": "20 MB Kuota Reset Tiap Bulan (Cukup untuk 10-15 artikel baru)",
+                    "f3": "Max Ukuran File 2 MB (Cover kebutuhan standar blogging)",
+                    "f4": "Standard Queue Priority (Kompresi masuk antrian reguler)",
+                    "f5": "Community & Docs Support (Akses panduan mandiri)"
+                }
             },
             "starter": {
                 "title": "Starter",
                 "description": "Untuk blogger & personal site yang aktif update konten",
-                "button": "Pilih Starter"
+                "button": "Pilih Starter",
+                "features": {
+                    "f1": "Auto-Convert ke WebP (Format Next-Gen Google favorit SEO)",
+                    "f2": "200 MB Kuota Bulanan (Estimasi 100-150 foto artikel resolusi tinggi)",
+                    "f3": "Max Ukuran File 10 MB",
+                    "f4": "Regular Queue Priority (Antrian Regular kompresi)",
+                    "f5": "Direct Email Support (Bantuan teknis langsung dari developer)"
+                }
             },
             "pro": {
                 "title": "Pro",
                 "description": "Performa maksimal untuk bisnis & profesional",
                 "button": "Pilih Pro",
-                "popular": "Paling Laris"
+                "popular": "Paling Laris",
+                "features": {
+                    "f1": "Ultimate Format: AVIF + WebP (AVIF lebih kecil 30% dari WebP. Speed booster sejati!)",
+                    "f2": "600 MB Kuota Bulanan (Kapasitas besar untuk ribuan produk/katalog)",
+                    "f3": "Max Ukuran File 32 MB (Support file raksasa/banner HD tanpa kendala)",
+                    "f4": "Premium Queue Priority (Antrian Premium kompresi)",
+                    "f5": "Priority VIP Support (Tiket bantuan Anda diprioritaskan paling atas)"
+                }
             },
             "business": {
                 "title": "Business",
@@ -75,6 +92,12 @@
                 "description": "Untuk skala besar",
                 "button": "Hubungi Kami"
             }
+        },
+        "enterprise_cta": {
+            "eyebrow": "Kebutuhan lebih besar",
+            "title": "Agensi, Bisnis dan Enterprise",
+            "description": "Butuh skala lebih besar dan penawaran menarik dari kami?",
+            "button": "Hubungi Kami"
         }
     },
     "HowItWorks": {

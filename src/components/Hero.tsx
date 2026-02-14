@@ -3,6 +3,7 @@
 import { motion } from "framer-motion";
 import Link from "next/link";
 import { useTranslations } from "next-intl";
+import ImageComparison from "./ImageComparison";
 
 export default function Hero() {
     const t = useTranslations("Hero");
@@ -51,27 +52,12 @@ export default function Hero() {
                     >
                         <div className="relative rounded-2xl bg-gray-900/5 p-2 ring-1 ring-inset ring-gray-900/10 lg:-m-4 lg:rounded-2xl lg:p-4">
                             <div className="rounded-xl bg-white shadow-2xl ring-1 ring-gray-900/10 overflow-hidden">
-                                {/* Placeholder for Dashboard Mockup */}
-                                <div className="aspect-[16/10] bg-gradient-to-tr from-blue-100 to-indigo-50 flex items-center justify-center p-10">
-                                    <div className="text-center">
-                                        <div className="text-4xl mb-4">⚡</div>
-                                        <div className="text-gray-900 font-bold text-xl mb-4">{t('compressResult')}</div>
-                                        <div className="mt-4 flex flew-row gap-8 justify-center items-end">
-                                            <div className="flex flex-col items-center">
-                                                <div className="h-32 w-16 bg-red-200 rounded-t-lg relative group">
-                                                    <span className="absolute bottom-2 left-1/2 -translate-x-1/2 text-sm font-bold text-red-500">2.3MB</span>
-                                                </div>
-                                                <span className="mt-2 text-sm text-gray-500">{t('before')}</span>
-                                            </div>
-                                            <div className="flex flex-col items-center">
-                                                <div className="h-12 w-16 bg-green-500 rounded-t-lg relative group">
-                                                    <span className="absolute bottom-2 left-1/2 -translate-x-1/2 text-sm font-bold text-green-800">350KB</span>
-                                                </div>
-                                                <span className="mt-2 text-sm text-gray-500">{t('after')}</span>
-                                            </div>
-                                        </div>
-                                    </div>
-                                </div>
+                                <ImageComparison
+                                    beforeLabel={t('before')}
+                                    afterLabel={t('after')}
+                                    beforeSubLabel="2.3MB"
+                                    afterSubLabel="350KB"
+                                />
                             </div>
                         </div>
                     </motion.div>
