@@ -4,9 +4,9 @@
         "getStarted": "Get Started"
     },
     "Hero": {
-        "headline": "Slow WordPress website due to <blue>heavy images?</blue>",
-        "subheadline": "SmallPict automatically reduces image sizes so your WordPress website faster than before without any complicated settings.",
-        "ctaPrimary": "Try Free Now",
+        "headline": "Make your WordPress site fly <blue>not crawl</blue>",
+        "subheadline": "Auto-compress and convert images to WebP & AVIF. Save up to 80% storage with no drop in quality. A faster site means better SEO and happier users.",
+        "ctaPrimary": "Get Started for Free",
         "ctaSecondary": "View Demo",
         "before": "Before",
         "after": "After",
@@ -20,20 +20,20 @@
     },
     "Features": {
         "title": "Key Features",
-        "subtitle": "Everything you need for a super fast WordPress website",
-        "f1_title": "Simply Magical",
-        "f1_desc": "Install, activate, and done. No confusing server configuration or complicated API keys.",
-        "f2_title": "Premium Quality",
-        "f2_desc": "Smart AI technology ensures the smallest possible file size without sacrificing visual quality.",
+        "subtitle": "Everything you need for your WordPress site Fly",
+        "f1_title": "Boost Page Speed",
+        "f1_desc": "Shrinks image file sizes by up to 80%. Your site loads faster, your visitors stay longer, and Google loves it.",
+        "f2_title": "Crystal Clear Images",
+        "f2_desc": "Our smart AI shrinks files to the limit without blurring the details. You get the smallest file size with zero visible loss in quality",
         "f3_title": "Zero Server Load",
-        "f3_desc": "Compression happens in our cloud, so your hosting server stays light and fast. Works with all hosting types.",
-        "f4_title": "Your Images Stay Safe",
-        "f4_desc": "We never store your images. After optimization, files go directly back to your WordPress — no copies kept on our servers."
+        "f3_desc": "All compression happens in our cloud, not on your site. Your hosting stays light and fast, perfect for any hosting plan.",
+        "f4_title": "No Tech Skills Needed",
+        "f4_desc": "Just install, activate, and you’re done. No confusing configurations, messy server settings, or complicated API keys required."
     },
     "Pricing": {
         "title": "Pricing",
-        "heading": "Transparent & Reasonable Pricing",
-        "subheading": "Choose the plan that fits your needs. No hidden fees.",
+        "heading": "Pay for what you need",
+        "subheading": "Choose the plan that fits your WordPress site. No hidden fees, ever.",
         "monthly": "Monthly",
         "annual": "Annual",
         "annualDiscount": "(-20%)",
@@ -42,17 +42,17 @@
         "plans": {
             "free": {
                 "title": "Free",
-                "description": "For hobbies & testing.",
+                "description": "Start optimizing your site without spending a dime.",
                 "button": "Try For Free"
             },
             "starter": {
                 "title": "Starter",
-                "description": "For bloggers / personal sites",
+                "description": "Perfect for active bloggers & growing personal sites.",
                 "button": "Choose Starter"
             },
             "pro": {
                 "title": "Pro",
-                "description": "For business & professionals",
+                "description": "Ideal for professionals and small businesses.",
                 "button": "Choose Pro",
                 "popular": "Most Popular"
             },
