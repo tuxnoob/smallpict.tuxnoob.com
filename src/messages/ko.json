@@ -72,6 +72,12 @@
                 "description": "대규모용",
                 "button": "문의하기"
             }
+        },
+        "enterprise": {
+            "badge": "Larger Needs",
+            "title": "Agency, Business & Enterprise",
+            "subtitle": "Need a larger scale and exclusive offers from us?",
+            "button": "Contact Us"
         }
     },
     "HowItWorks": {

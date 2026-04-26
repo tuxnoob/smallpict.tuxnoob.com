@@ -3,28 +3,68 @@
 import Link from "next/link";
 import Logo from "./Logo";
 import { useTranslations } from "next-intl";
+import { useState } from "react";
+import { Menu, X } from "lucide-react";
 
 export default function Navbar() {
     const t = useTranslations("Navbar");
+    const [mobileOpen, setMobileOpen] = useState(false);
 
     return (
-        <header className="absolute inset-x-0 top-0 z-50">
-            <nav className="flex items-center justify-between p-6 lg:px-8" aria-label="Global">
+        <header className="sticky top-0 z-50 w-full">
+            <div className="absolute inset-0 bg-gray-950/70 backdrop-blur-xl border-b border-white/5" />
+            <nav className="relative mx-auto max-w-7xl flex items-center justify-between px-6 py-4 lg:px-8">
                 <div className="flex lg:flex-1">
                     <Link href="/" className="-m-1.5 p-1.5">
                         <span className="sr-only">SmallPict</span>
                         <Logo />
                     </Link>
                 </div>
-                <div className="flex flex-1 justify-end gap-x-6 items-center">
-                    <Link href="/docs/v1/intro" className="text-sm font-semibold leading-6 text-gray-900 hover:text-blue-600 transition-colors">
-                        {t('docs')}
+
+                {/* Desktop Nav */}
+                <div className="hidden md:flex flex-1 justify-end gap-x-8 items-center">
+                    <Link
+                        href="/docs/introduction"
+                        className="text-sm font-medium text-gray-400 hover:text-white transition-colors"
+                    >
+                        {t("docs")}
                     </Link>
-                    <Link href="/docs/v1/installation" className="rounded-full bg-blue-600 px-4 py-2 text-sm font-semibold text-white shadow-sm hover:bg-blue-500 focus-visible:outline focus-visible:outline-2 focus-visible:outline-offset-2 focus-visible:outline-blue-600 transition-all">
-                        {t('getStarted')}
+                    <Link
+                        href="/pricing"
+                        className="relative inline-flex items-center px-5 py-2 text-sm font-semibold text-white rounded-full bg-indigo-600 hover:bg-indigo-500 transition-all hover:shadow-lg hover:shadow-indigo-500/25 hover:-translate-y-0.5"
+                    >
+                        {t("getStarted")}
                     </Link>
                 </div>
+
+                {/* Mobile Menu Button */}
+                <button
+                    onClick={() => setMobileOpen(!mobileOpen)}
+                    className="md:hidden text-gray-400 hover:text-white transition-colors"
+                >
+                    {mobileOpen ? <X className="w-6 h-6" /> : <Menu className="w-6 h-6" />}
+                </button>
             </nav>
+
+            {/* Mobile Nav */}
+            {mobileOpen && (
+                <div className="relative md:hidden border-t border-white/5 bg-gray-950/95 backdrop-blur-xl px-6 py-4 space-y-3">
+                    <Link
+                        href="/docs/introduction"
+                        onClick={() => setMobileOpen(false)}
+                        className="block text-sm font-medium text-gray-400 hover:text-white transition-colors py-2"
+                    >
+                        {t("docs")}
+                    </Link>
+                    <Link
+                        href="/pricing"
+                        onClick={() => setMobileOpen(false)}
+                        className="block text-center px-5 py-2.5 text-sm font-semibold text-white rounded-full bg-indigo-600 hover:bg-indigo-500 transition-all"
+                    >
+                        {t("getStarted")}
+                    </Link>
+                </div>
+            )}
         </header>
     );
 }

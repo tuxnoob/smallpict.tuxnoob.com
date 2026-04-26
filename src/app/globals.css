@@ -1,4 +1,5 @@
 @import "tailwindcss";
+@plugin "@tailwindcss/typography";
 
 @source "../src";
 
@@ -7,43 +8,100 @@
   --color-foreground: var(--foreground);
 }
 
-/* Enforce Light Mode Variables for consistency with GitBook style */
 :root {
-  --background: #ffffff;
-  --foreground: #171717;
-  --sidebar-bg: #f5f7f9;
-  --sidebar-border: #e6ecf1;
-  --text-primary: #3b454e;
-  --text-secondary: #5c6975;
-  --primary-blue: #0277bd;
-  /* GitBook Blue-ish */
+  --background: #030712;
+  --foreground: #f9fafb;
+  --accent: #818cf8;
+  --accent-bright: #a78bfa;
 }
-
-/* Remove Dark Mode for now to ensure GitBook Aesthetic */
-/* @media (prefers-color-scheme: dark) { ... } */
 
 body {
   background: var(--background);
-  color: var(--text-primary);
-  font-family: -apple-system, BlinkMacSystemFont, "Segoe UI", Helvetica, Arial, sans-serif, "Apple Color Emoji", "Segoe UI Emoji", "Segoe UI Symbol";
+  color: var(--foreground);
+  font-family: var(--font-geist-sans), -apple-system, BlinkMacSystemFont, "Segoe UI", sans-serif;
 }
 
+/* ─── Mesh Gradient Background ─── */
+.mesh-gradient {
+  background:
+    radial-gradient(ellipse 80% 50% at 50% -20%, rgba(120, 119, 198, 0.15), transparent),
+    radial-gradient(ellipse 60% 50% at 80% 50%, rgba(99, 102, 241, 0.08), transparent),
+    radial-gradient(ellipse 50% 80% at 20% 80%, rgba(139, 92, 246, 0.06), transparent);
+}
+
+/* ─── Glass Card ─── */
+.glass-card {
+  background: rgba(255, 255, 255, 0.03);
+  backdrop-filter: blur(12px);
+  -webkit-backdrop-filter: blur(12px);
+  border: 1px solid rgba(255, 255, 255, 0.06);
+}
+
+.glass-card-hover:hover {
+  background: rgba(255, 255, 255, 0.06);
+  border-color: rgba(129, 140, 248, 0.2);
+}
+
+/* ─── Glow Effects ─── */
+.glow-sm {
+  box-shadow: 0 0 20px rgba(99, 102, 241, 0.15);
+}
+.glow-md {
+  box-shadow: 0 0 40px rgba(99, 102, 241, 0.2);
+}
+.glow-text {
+  text-shadow: 0 0 40px rgba(99, 102, 241, 0.3);
+}
+
+/* ─── Gradient Text ─── */
+.gradient-text {
+  background: linear-gradient(135deg, #818cf8 0%, #a78bfa 50%, #c084fc 100%);
+  -webkit-background-clip: text;
+  -webkit-text-fill-color: transparent;
+  background-clip: text;
+}
+
+/* ─── Gradient Border ─── */
+.gradient-border {
+  position: relative;
+}
+.gradient-border::before {
+  content: '';
+  position: absolute;
+  inset: 0;
+  border-radius: inherit;
+  padding: 1px;
+  background: linear-gradient(135deg, rgba(129,140,248,0.4), rgba(167,139,250,0.2), rgba(129,140,248,0.1));
+  -webkit-mask: linear-gradient(#fff 0 0) content-box, linear-gradient(#fff 0 0);
+  -webkit-mask-composite: xor;
+  mask-composite: exclude;
+  pointer-events: none;
+}
+
+/* ─── Animated Grid Background ─── */
+.grid-pattern {
+  background-image:
+    linear-gradient(rgba(255,255,255,0.02) 1px, transparent 1px),
+    linear-gradient(90deg, rgba(255,255,255,0.02) 1px, transparent 1px);
+  background-size: 64px 64px;
+}
+
+/* ─── Prose (Docs) ─── */
 @layer components {
   .prose {
-    @apply max-w-[800px] text-[16px] leading-7 text-gray-700;
+    @apply max-w-[800px] text-[16px] leading-7 text-gray-300;
   }
 
   .prose table {
-    @apply w-full border-collapse my-6 text-sm border border-gray-200 rounded-lg overflow-hidden block sm:table;
+    @apply w-full border-collapse my-6 text-sm border border-gray-700 rounded-lg overflow-hidden block sm:table;
   }
 
   .prose th {
-    @apply border-b border-gray-200 bg-gray-50 px-4 py-3 text-left font-semibold text-gray-900;
-    /* Center text for headers 2-4 if possible, but CSS selector is hard. Relies on markdown alignment. */
+    @apply border-b border-gray-700 bg-gray-800/50 px-4 py-3 text-left font-semibold text-gray-200;
   }
 
   .prose td {
-    @apply border-b border-gray-100 px-4 py-3 text-gray-600;
+    @apply border-b border-gray-800 px-4 py-3 text-gray-400;
   }
 
   .prose tr:last-child td {
@@ -51,16 +109,15 @@ body {
   }
 
   .prose tr:nth-child(even) {
-    @apply bg-[#f9fafb];
-    /* Slight zebra stripe */
+    @apply bg-gray-900/30;
   }
 
   .prose h1 {
-    @apply text-4xl font-bold tracking-tight text-gray-900 mb-6 pb-4 border-b border-gray-100;
+    @apply text-4xl font-bold tracking-tight text-white mb-6 pb-4 border-b border-gray-800;
   }
 
   .prose h2 {
-    @apply text-2xl font-bold tracking-tight text-gray-900 mt-10 mb-4;
+    @apply text-2xl font-bold tracking-tight text-white mt-10 mb-4;
   }
 
   .prose p {
@@ -68,18 +125,29 @@ body {
   }
 
   .prose a {
-    @apply text-blue-600 no-underline hover:text-blue-800 font-medium border-b border-blue-600/30 hover:border-blue-800 transition-colors;
+    @apply text-indigo-400 no-underline hover:text-indigo-300 font-medium border-b border-indigo-400/30 hover:border-indigo-300 transition-colors;
   }
 
   .prose code {
-    @apply bg-gray-100 text-[#e01e5a] px-1.5 py-0.5 rounded text-[0.9em] font-medium font-mono;
+    @apply bg-gray-800 text-indigo-300 px-1.5 py-0.5 rounded text-[0.9em] font-medium font-mono;
   }
 
   .prose pre {
-    @apply bg-[#f5f7f9] text-gray-800 p-4 rounded-lg overflow-x-auto my-6 border border-gray-200 shadow-sm;
+    @apply bg-gray-900 text-gray-300 p-4 rounded-lg overflow-x-auto my-6 border border-gray-800;
   }
 
   .prose pre code {
     @apply bg-transparent text-inherit p-0 text-sm;
   }
+}
+
+/* ─── Smooth Scroll ─── */
+html {
+  scroll-behavior: smooth;
+}
+
+/* ─── Selection Color ─── */
+::selection {
+  background: rgba(129, 140, 248, 0.3);
+  color: #fff;
 }

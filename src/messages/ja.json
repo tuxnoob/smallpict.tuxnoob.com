@@ -72,6 +72,12 @@
                 "description": "大規模な利用向け",
                 "button": "お問い合わせ"
             }
+        },
+        "enterprise": {
+            "badge": "Larger Needs",
+            "title": "Agency, Business & Enterprise",
+            "subtitle": "Need a larger scale and exclusive offers from us?",
+            "button": "Contact Us"
         }
     },
     "HowItWorks": {

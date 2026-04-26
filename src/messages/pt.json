@@ -72,6 +72,12 @@
                 "description": "Para grande escala",
                 "button": "Contate-nos"
             }
+        },
+        "enterprise": {
+            "badge": "Larger Needs",
+            "title": "Agency, Business & Enterprise",
+            "subtitle": "Need a larger scale and exclusive offers from us?",
+            "button": "Contact Us"
         }
     },
     "HowItWorks": {

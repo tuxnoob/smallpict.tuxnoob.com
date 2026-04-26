@@ -1,6 +1,7 @@
 {
     "Navbar": {
         "docs": "Documentation",
+        "tool": "Free Tool",
         "getStarted": "Get Started"
     },
     "Hero": {
@@ -71,6 +72,12 @@
                 "description": "For large scale",
                 "button": "Contact Us"
             }
+        },
+        "enterprise": {
+            "badge": "Larger Needs",
+            "title": "Agency, Business & Enterprise",
+            "subtitle": "Need a larger scale and exclusive offers from us?",
+            "button": "Contact Us"
         }
     },
     "HowItWorks": {
@@ -93,6 +100,7 @@
     "Footer": {
         "rights": "SmallPict (TuxNoob). All rights reserved.",
         "brandMessage": "SmallPict — lightweight solution for WordPress websites that want to stay fast without compromising quality.",
+        "tool": "Free Tool",
         "privacy": "Privacy Policy",
         "terms": "Terms of Service",
         "docs": "Documentation",
@@ -139,5 +147,9 @@
         "s5_content": "We strive for 99.9% uptime but do not guarantee uninterrupted service. Scheduled maintenance will be announced in advance when possible.",
         "s6_title": "6. Contact",
         "s6_content": "For questions about these Terms of Service, contact us at: support@tuxnoob.com"
+    },
+    "Tool": {
+        "title": "Free WebP Image Converter",
+        "description": "Convert PNG and JPEG images to WebP instantly in your browser. No uploads. Fast processing. 100% private."
     }
 }

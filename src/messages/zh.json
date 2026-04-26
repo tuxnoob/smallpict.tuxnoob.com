@@ -72,6 +72,12 @@
                 "description": "用于大规模需求",
                 "button": "联系我们"
             }
+        },
+        "enterprise": {
+            "badge": "Larger Needs",
+            "title": "Agency, Business & Enterprise",
+            "subtitle": "Need a larger scale and exclusive offers from us?",
+            "button": "Contact Us"
         }
     },
     "HowItWorks": {

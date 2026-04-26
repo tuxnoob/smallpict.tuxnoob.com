@@ -1,0 +1,49 @@
+---
+title: API Error Codes
+description: Complete reference of SmallPict API error codes and their meanings.
+---
+
+## Error Code Reference
+
+All SmallPict API errors follow a consistent JSON format:
+
+```json
+{
+  "code": "error_code",
+  "message": "Human-readable description"
+}
+```
+
+## Authentication Errors
+
+| HTTP Status | Code | Description | Plugin UI State |
+|-------------|------|-------------|-----------------|
+| `401` | `invalid_otp` | The OTP code is incorrect | OTP input shakes, red border |
+| `401` | `expired_otp` | The OTP has expired (15 min TTL) | Reverts to email input screen |
+| `401` | `invalid_api_key` | API key is revoked or doesn't exist | Shows "Disconnected" notice |
+| `403` | `access_denied` | Email not in staff allowlist | Login page shows "Access Denied" |
+
+## Rate Limiting
+
+| HTTP Status | Code | Description | Plugin UI State |
+|-------------|------|-------------|-----------------|
+| `429` | `rate_limited` | Too many OTP requests (max 5/24h) | "Send Code" button disabled |
+| `429` | `quota_exceeded` | Monthly usage quota reached | Processing paused, upgrade CTA |
+
+## Processing Errors
+
+| HTTP Status | Code | Description |
+|-------------|------|-------------|
+| `400` | `validation_error` | Malformed request body |
+| `413` | `file_too_large` | Image exceeds max file size for plan |
+| `415` | `unsupported_format` | File type not supported |
+| `500` | `internal_error` | Unexpected server error |
+| `503` | `service_unavailable` | Lambda cold start or temporary outage |
+
+## Handling Errors in WordPress
+
+The SmallPict plugin handles these errors automatically. When an error occurs during image processing:
+
+1. The original image is **preserved** (never deleted)
+2. A WordPress admin notice appears with the error message
+3. The image can be retried manually from the Media Library
